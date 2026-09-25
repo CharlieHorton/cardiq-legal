@@ -17,7 +17,7 @@ The app downloads card prices from our server. That request contains no personal
 
 ## If you create an account
 
-Accounts are optional and are only needed for the Daily leaderboard and for syncing progress between devices. You can sign in with Apple, Google or a one-time code sent to your email address.
+Accounts are optional and are only needed for the Daily leaderboard and for syncing progress between devices. You can sign in with Apple or Google.
 
 We store:
 
