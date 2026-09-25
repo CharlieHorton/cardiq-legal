@@ -1,0 +1,10 @@
+title: CardIQ
+description: The trading card price-guessing game.
+markdown: kramdown
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+exclude:
+  - README.md
