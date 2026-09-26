@@ -1,0 +1,55 @@
+---
+title: You've been challenged
+description: A friend has challenged you to price the same trading cards and beat their score in CardIQ.
+---
+<style>
+  .actions { display: flex; flex-wrap: wrap; gap: 12px; margin: 28px 0 8px; }
+  .button {
+    display: inline-flex; align-items: center; min-height: 52px; padding: 0 22px; border-radius: 12px;
+    font: 700 14px/1 'JetBrains Mono', ui-monospace, monospace; letter-spacing: .1em; text-transform: uppercase;
+    text-decoration: none; border: 1px solid var(--lime);
+  }
+  .button.primary { background: var(--lime); color: var(--ink); }
+  .button.secondary { color: var(--paper); border-color: var(--rule); }
+</style>
+
+<p class="kicker" id="kicker">Challenge</p>
+
+<h1 id="headline">You've been challenged</h1>
+
+<p class="lede" id="lede">A friend wants you to price the same trading cards and beat their score.</p>
+
+<div class="actions">
+  <a class="button primary" id="open" href="cardiq://">Open in CardIQ</a>
+  {% if site.app_store_id %}<a class="button secondary" href="https://apps.apple.com/gb/app/id{{ site.app_store_id }}">Get CardIQ</a>{% endif %}
+</div>
+
+{% if site.app_store_id %}
+<p>If CardIQ is installed, the challenge opens in the app. If not, get it free on the App Store, then tap this link again.</p>
+{% else %}
+<p>CardIQ is coming to iPhone soon. If you already have it, <strong>Open in CardIQ</strong> takes you straight to the challenge.</p>
+{% endif %}
+
+<script>
+  // Mirrors src/engine/challenge.ts in the app: g = <mode>.<card hashes>.<scores>[.<pack>[.<week>]].
+  (function () {
+    var g = new URLSearchParams(location.search).get('g');
+    if (!g) return;
+    var parts = g.split('.');
+    var modes = { c: ['Classic', 1, 'card'], r: ['Price Range', 1, 'card'], k: ['Rank It', 4, 'round'] };
+    var mode = modes[parts[0]];
+    var keys = parts[1] || '';
+    var scores = parts[2] || '';
+    if (!mode || keys.length % 7 || scores.length % 2 || !/^[0-9a-z]+$/.test(keys + scores)) return;
+    var total = 0;
+    for (var i = 0; i < scores.length; i += 2) total += parseInt(scores.slice(i, i + 2), 36);
+    var count = keys.length / 7 / mode[1];
+    var noun = mode[2] + (count === 1 ? '' : 's');
+    document.getElementById('kicker').textContent = 'Challenge · ' + mode[0];
+    document.getElementById('headline').textContent = 'Beat ' + total.toLocaleString('en-GB');
+    document.getElementById('lede').textContent =
+      'A friend scored ' + total.toLocaleString('en-GB') + ' on ' + count + ' ' + noun +
+      '. You get the same ones. How close can you get to the market price?';
+    document.getElementById('open').href = 'cardiq://c?g=' + encodeURIComponent(g);
+  })();
+</script>
