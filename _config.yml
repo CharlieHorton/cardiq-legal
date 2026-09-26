@@ -6,5 +6,8 @@ defaults:
       path: ""
     values:
       layout: default
+# Jekyll skips dot-folders; iOS reads universal link settings from .well-known.
+include:
+  - .well-known
 exclude:
   - README.md
