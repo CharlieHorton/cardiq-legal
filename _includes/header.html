@@ -1,0 +1,20 @@
+<header class="site-header">
+  <div class="wrap">
+    <a class="wordmark" href="{{ '/' | relative_url }}" aria-label="CardIQ home">Card<span class="iq">IQ</span></a>
+    <nav class="site-nav" aria-label="Site">
+      {%- if page.url == '/' %}
+      <a href="#scoring">Scoring</a>
+      <a href="#modes">Modes</a>
+      <a href="#faq">FAQ</a>
+      {%- else %}
+      <a href="{{ '/' | relative_url }}">Home</a>
+      {%- endif %}
+      <a href="{{ '/support' | relative_url }}"{% if page.url == '/support.html' %} aria-current="page"{% endif %}>Support</a>
+    </nav>
+    {%- if site.app_store_id %}
+    <a class="header-cta" href="https://apps.apple.com/gb/app/id{{ site.app_store_id }}">Get the app</a>
+    {%- else %}
+    <span class="header-cta is-soon">Coming soon</span>
+    {%- endif %}
+  </div>
+</header>

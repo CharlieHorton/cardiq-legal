@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<script>document.documentElement.classList.add('js')</script>
+{% include head.html %}
+</head>
+<body class="{{ page.body_class | default: 'page' }}">
+<a class="skip-link" href="#main">Skip to content</a>
+{{ content }}
+</body>
+</html>

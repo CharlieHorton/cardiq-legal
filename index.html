@@ -1,0 +1,379 @@
+---
+layout: base
+body_class: home
+full_title: "CardIQ · What's your Card IQ?"
+og_title: "What's your Card IQ?"
+description: "Guess the real UK market price of trading cards. Watch the price roll in, score up to 1,000 a card and build your Market IQ. A new Daily Challenge every midnight."
+---
+{%- assign show = site.data.showcase -%}
+{%- assign first = show.demo[0] -%}
+
+<div class="ticker" aria-hidden="true">
+  <div class="ticker-tape">
+    {%- for pass in (1..2) %}
+    <div class="ticker-copy">
+      {%- for quote in show.ticker %}
+      <span class="tq">{{ quote.label }} <b>{{ quote.price }}</b>{% if quote.change %} <i class="{% if quote.up %}up{% else %}down{% endif %}">{{ quote.change }}</i>{% endif %}</span>
+      {%- endfor %}
+    </div>
+    {%- endfor %}
+  </div>
+</div>
+
+{% include header.html %}
+
+<main id="main">
+
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="kicker live"><span data-daily-kicker>A new Daily Challenge every midnight</span></p>
+        <h1 class="hero-title">What's your <span>Card IQ?</span></h1>
+        <p class="lede hero-lede">A real trading card. One question: what's it worth? Punch in your price, watch the UK market value roll in and score up to 1,000 points a card.</p>
+        <div class="hero-actions">
+          {% include store-cta.html %}
+          <a class="btn btn-ghost try-link" href="#try">Try a card <span class="arrow" aria-hidden="true">↓</span></a>
+        </div>
+        <ul class="hero-facts">
+          <li>Free</li>
+          <li>No ads</li>
+          <li>No account needed</li>
+        </ul>
+      </div>
+
+      <div class="hero-demo" id="try">
+        <div class="phone phone-live">
+          <div class="phone-screen">
+            <div class="phone-status" aria-hidden="true">
+              <span>09:41</span>
+              <span class="island"></span>
+              <svg width="66" height="13" viewBox="0 0 66 13" fill="currentColor"><rect x="0" y="8" width="3" height="4" rx="1"/><rect x="5" y="6" width="3" height="6" rx="1"/><rect x="10" y="3" width="3" height="9" rx="1"/><rect x="15" y="0" width="3" height="12" rx="1"/><path d="M30 3.4a9.6 9.6 0 0 1 6.8 2.8l1.2-1.2a11.3 11.3 0 0 0-16 0l1.2 1.2A9.6 9.6 0 0 1 30 3.4zm0 3.4a6.2 6.2 0 0 1 4.4 1.8l1.2-1.2a7.9 7.9 0 0 0-11.2 0l1.2 1.2A6.2 6.2 0 0 1 30 6.8zm0 3.4a2.8 2.8 0 0 1 2 .8L30 13l-2-2a2.8 2.8 0 0 1 2-.8z"/><rect x="42.5" y="1" width="20" height="11" rx="3.5" fill="none" stroke="currentColor" opacity=".5"/><rect x="44.5" y="3" width="16" height="7" rx="2" fill="#C6F432"/><rect x="63.5" y="4.5" width="1.5" height="4" rx=".75" opacity=".5"/></svg>
+            </div>
+
+            <div class="demo" data-demo>
+              <div class="demo-bar"><span data-round>Try it · 1/3</span><span data-points>0 pts</span></div>
+              <div class="demo-progress" aria-hidden="true"><i class="now"></i><i></i><i></i></div>
+
+              <div data-play>
+                <div class="demo-card">
+                  <div class="card-art" data-card-art>
+                    <img data-card-img src="{{ first.image }}" alt="{{ first.name }}, {{ first.set }} {{ first.number }}" width="245" height="342" decoding="async" fetchpriority="high">
+                  </div>
+                  <div class="card-meta">
+                    <h3 data-card-name>{{ first.name }}</h3>
+                    <p class="chip" data-card-finish{% unless first.finish %} hidden{% endunless %}>{{ first.finish }}</p>
+                    <dl data-card-details>
+                      <div><dt>Set</dt><dd>{{ first.set }}</dd></div>
+                      <div><dt>No.</dt><dd>{{ first.number }}</dd></div>
+                      <div><dt>Rarity</dt><dd>{{ first.rarity }}</dd></div>
+                      <div><dt>Year</dt><dd>{{ first.year }}</dd></div>
+                    </dl>
+                  </div>
+                </div>
+
+                <div data-guess>
+                  <p class="label" id="guess-label">Your price · GBP</p>
+                  <p class="price-big is-empty" data-entry aria-labelledby="guess-label">£0</p>
+                  <div class="nudges">
+                    <button type="button" data-nudge="-large">-£100</button>
+                    <button type="button" data-nudge="-small">-£10</button>
+                    <button type="button" data-nudge="+small">+£10</button>
+                    <button type="button" data-nudge="+large">+£100</button>
+                  </div>
+                  <div class="keypad">
+                    <button type="button" data-key="1">1</button><button type="button" data-key="2">2</button><button type="button" data-key="3">3</button>
+                    <button type="button" data-key="4">4</button><button type="button" data-key="5">5</button><button type="button" data-key="6">6</button>
+                    <button type="button" data-key="7">7</button><button type="button" data-key="8">8</button><button type="button" data-key="9">9</button>
+                    <button type="button" data-key=".">.</button><button type="button" data-key="0">0</button><button type="button" data-key="back" aria-label="Delete">⌫</button>
+                  </div>
+                  <button type="button" class="btn btn-primary btn-block" data-lock disabled>Lock in guess <span class="arrow" aria-hidden="true">→</span></button>
+                </div>
+
+                <div data-reveal hidden>
+                  <p class="label">Market price · GBP</p>
+                  <p class="price-big"><span class="odometer" data-market></span></p>
+                  <div class="meter">
+                    <div class="meter-head"><span>Your guess vs market</span><span>±30%</span></div>
+                    <div class="meter-track">
+                      <span class="meter-mkt"></span>
+                      <span class="meter-you" data-you><span data-you-label>You</span></span>
+                    </div>
+                    <div class="meter-scale"><span>-30%</span><b>MKT</b><span>+30%</span></div>
+                  </div>
+                  <div class="result" data-result aria-live="polite">
+                    <div class="result-top"><span class="tier" data-tier>Good</span><span class="accuracy" data-accuracy></span></div>
+                    <p class="result-copy" data-verdict></p>
+                    <span class="result-points" data-score>+0</span>
+                  </div>
+                  <button type="button" class="btn btn-primary btn-block" data-next>Next card <span class="arrow" aria-hidden="true">→</span></button>
+                </div>
+              </div>
+
+              <div class="demo-summary" data-summary hidden>
+                <p class="label">Your result</p>
+                <p class="summary-total"><span data-total>0</span> <small>/ 3,000 pts</small></p>
+                <div class="summary-grid" data-grid aria-hidden="true"></div>
+                <ul class="summary-lines">
+                  <li data-within></li>
+                  <li data-bullseyes></li>
+                </ul>
+                <h3 data-summary-title>Not bad at all.</h3>
+                <p>That was three cards. The app deals a new Daily every midnight, six ways to play and a Market IQ that tracks how sharp your eye gets.</p>
+                <div class="summary-actions">
+                  {% include store-cta.html %}
+                  <button type="button" class="btn btn-ghost btn-block" data-again>Try three more <span class="arrow" aria-hidden="true">↻</span></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p class="demo-note">UK market prices as of {{ show.priceDateLabel }}</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="stats" aria-label="The market in CardIQ">
+    <div class="wrap stats-grid">
+      <div class="stat"><b>{{ show.stats.cards }}</b><span>Cards priced</span></div>
+      <div class="stat"><b>{{ show.stats.sets }}</b><span>Sets</span></div>
+      <div class="stat"><b>{{ show.stats.firstYear }}–{{ show.stats.lastYear | slice: 2, 2 }}</b><span>Every era</span></div>
+      <div class="stat"><b>6</b><span>Ways to play</span></div>
+    </div>
+  </section>
+
+  <section class="section" id="scoring">
+    <div class="wrap split">
+      <div class="split-copy reveal">
+        <p class="kicker">Scoring</p>
+        <h2>Closer scores more</h2>
+        <p>Every card is worth up to 1,000 points. The curve is steep near the market price and forgiving further out, so a sharp eye beats a lucky guess. A bullseye within 2% takes nearly all of it. Within 20% still earns two thirds.</p>
+        <ul class="bands">
+          <li style="--c:#D4FF3F"><i></i><b>Bullseye</b><span>under 2%</span><span>988+</span></li>
+          <li style="--c:#B5F23A"><i></i><b>Incredible</b><span>2–5%</span><span>953–988</span></li>
+          <li style="--c:#93E45B"><i></i><b>Very close</b><span>5–10%</span><span>872–953</span></li>
+          <li style="--c:#F2E14A"><i></i><b>Good</b><span>10–20%</span><span>678–872</span></li>
+          <li style="--c:#FFB224"><i></i><b>Close</b><span>20–30%</span><span>490–678</span></li>
+          <li style="--c:#FF8A3D"><i></i><b>Off</b><span>30–50%</span><span>216–490</span></li>
+          <li style="--c:#FF5A3D"><i></i><b>Way off</b><span>50%+</span><span>under 216</span></li>
+        </ul>
+      </div>
+      <figure class="curve-card reveal d1" data-curve>
+        <svg viewBox="0 0 600 320" role="img" aria-labelledby="curve-title">
+          <title id="curve-title">Points against how far your guess is from the market price: 1,000 at 0%, 872 at 10%, 678 at 20%, 490 at 30% and 216 at 50%.</title>
+          <g data-curve-bands></g>
+          <g class="curve-grid" data-curve-grid></g>
+          <path class="curve-line" data-curve-line d=""/>
+          <g class="curve-probe" data-curve-probe>
+            <line x1="0" x2="0" y1="24" y2="284"/>
+            <circle r="7" cx="0" cy="0"/>
+            <text x="0" y="0"></text>
+          </g>
+        </svg>
+        <div class="curve-control">
+          <label for="miss">How far off? <span><output data-miss-out for="miss">12%</output> → <output class="pts" data-miss-pts>835 pts</output></span></label>
+          <input type="range" id="miss" min="0" max="60" step="1" value="12" data-miss>
+        </div>
+      </figure>
+    </div>
+  </section>
+
+  <section class="section" id="modes">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="kicker">Six ways to play</p>
+        <h2>Pick your game</h2>
+        <p>Guess the price, pick the band, put cards in order or back your gut on a streak. Every mode deals real cards at real market prices.</p>
+      </div>
+      <div class="modes-layout">
+        <div class="mode-grid">
+          <article class="mode featured reveal">
+            <div class="mode-top"><span class="code">DLY</span><span class="mode-meta">5 cards · daily</span></div>
+            <h3>Daily Challenge</h3>
+            <p>Five cards, the same for everyone. A new set at midnight UK time.</p>
+          </article>
+          <article class="mode reveal d1">
+            <div class="mode-top"><span class="code">CLS</span><span class="mode-meta">10 cards</span></div>
+            <h3>Classic</h3>
+            <p>From a few pounds to a thousand. The closer your guess, the more you score.</p>
+          </article>
+          <article class="mode reveal">
+            <div class="mode-top"><span class="code">RNG</span><span class="mode-meta">10 cards</span></div>
+            <h3>Price Range</h3>
+            <p>Pick the price band. A guess one band out still scores.</p>
+          </article>
+          <article class="mode reveal d1">
+            <div class="mode-top"><span class="code">RNK</span><span class="mode-meta">5 rounds</span></div>
+            <h3>Rank It</h3>
+            <p>Four cards. Put them in order, from most to least valuable.</p>
+          </article>
+          <article class="mode reveal">
+            <div class="mode-top"><span class="code">H/L</span><span class="mode-meta">Until you miss</span></div>
+            <h3>Higher or Lower</h3>
+            <p>Is the next card worth more or less? One wrong call ends the run.</p>
+          </article>
+          <article class="mode reveal d1">
+            <div class="mode-top"><span class="code">CHS</span><span class="mode-meta">Until you miss</span></div>
+            <h3>Pick the Chase</h3>
+            <p>Three cards. Tap the most valuable one.</p>
+          </article>
+        </div>
+        <div class="duo reveal d2">
+          <div class="shot"><img src="{{ '/assets/img/screen-rank-it.webp' | relative_url }}" alt="Rank It: four cards to put in order of value" width="600" height="1232" loading="lazy"></div>
+          <div class="shot"><img src="{{ '/assets/img/screen-higher-lower.webp' | relative_url }}" alt="Higher or Lower: is Rattata worth more or less than £569?" width="600" height="1232" loading="lazy"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="daily">
+    <div class="wrap split">
+      <div class="split-copy reveal">
+        <p class="kicker live">The Daily Challenge</p>
+        <h2>Five cards. Same for everyone.</h2>
+        <p>Every midnight UK time, everyone gets the same five cards. Lock in each guess before the price is revealed, keep your streak alive and see where you rank on the leaderboard.</p>
+        <div class="countdown" aria-live="off">
+          <div><p class="label" data-daily-label>Next Daily in</p><span class="countdown-time" data-countdown>--:--:--</span></div>
+        </div>
+        <p>Then share your grid. It shows how close you got, never the cards or prices, so nobody gets spoiled.</p>
+      </div>
+      <div class="daily-visual reveal d1">
+        <div class="bubble-wrap">
+          <p class="bubble-meta">Shared from CardIQ</p>
+          <div class="bubble">CARDIQ DAILY #<span data-daily-number>3</span>
+🟩 🟩 🟨 🟩 🟧
+
+4 / 5 within 20%
+Market IQ: +12
+🔥 6 day streak
+🎯 1 bullseye
+
+<a href="{{ '/' | relative_url }}">playcardiq.com</a></div>
+        </div>
+        <div class="shot shot-glow"><img src="{{ '/assets/img/screen-daily.webp' | relative_url }}" alt="A finished Daily: 4,733 points, 95% accuracy, five of five within 20%" width="600" height="1232" loading="lazy"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="screener">
+    <div class="wrap split reverse">
+      <div class="split-copy reveal">
+        <p class="kicker">Packs and the Screener</p>
+        <h2>Play your corner of the market</h2>
+        <p>Three themed packs go live every Monday. Your first run of each is that week's challenge, dealt the same for everyone.</p>
+        <div class="packs">
+          <div class="pack"><span class="code">CHZ</span><b>Charizard</b><span>Every flame, from Base Set to ex.</span></div>
+          <div class="pack"><span class="code">WTC</span><b>Wizards Vault</b><span>Base Set to Skyridge. Vintage, 1999–2003.</span></div>
+          <div class="pack"><span class="code">EEV</span><b>Eeveelutions</b><span>Eevee and all eight evolutions. Moonbreon money.</span></div>
+        </div>
+        <p>Or open the Screener. Filter by era, character, set and price, then deal yourself a game in any mode.</p>
+        <ul class="chips" aria-label="Example Screener filters">
+          <li>WOTC</li><li class="on">EX</li><li>SV+</li><li class="on">Charizard</li><li>Umbreon</li><li>£25–£50</li><li class="on">£100–£250</li>
+        </ul>
+      </div>
+      <div class="reveal d1">
+        <div class="shot shot-glow"><img src="{{ '/assets/img/screen-screener.webp' | relative_url }}" alt="The Screener: era, Pokémon and price filters with 55 matching cards" width="600" height="1232" loading="lazy"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="market-iq">
+    <div class="wrap split">
+      <div class="split-copy reveal">
+        <p class="kicker">Market IQ</p>
+        <h2>Skill, not grind</h2>
+        <p>Market IQ is a rating out of 1,000 that measures how accurately you price cards. It follows your recent guesses, so it climbs as your eye sharpens, and playing more won't lift it on its own.</p>
+        <ul class="iq-points">
+          <li><span class="code">IQ</span><span><b>Rated on your Classic and Daily guesses</b>Packs and Screener games are for fun: they earn XP but leave your rating alone.</span></li>
+          <li><span class="code">XP</span><span><b>Levels and streaks</b>Every game earns XP. Play the Daily each day to keep your streak going.</span></li>
+          <li><span class="code">SYN</span><span><b>Yours on every device</b>Sign in with Apple or Google to sync your progress and join the leaderboard.</span></li>
+        </ul>
+      </div>
+      <div class="reveal d1">
+        <div class="shot shot-glow"><img src="{{ '/assets/img/screen-home.webp' | relative_url }}" alt="The CardIQ home screen: Market IQ 749, level 9 and today's Daily" width="600" height="1232" loading="lazy"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="principles">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="kicker">Built for collectors</p>
+        <h2>Just the game</h2>
+      </div>
+      <div class="principles">
+        <article class="principle reveal">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.6 13.4 13.4 20.6a2 2 0 0 1-2.8 0L3 13V3h10l7.6 7.6a2 2 0 0 1 0 2.8z"/><circle cx="7.5" cy="7.5" r="1.5"/></svg>
+          <h3>Free to play</h3>
+          <p>No ads and no in-app purchases. Points and ratings are for bragging rights only.</p>
+        </article>
+        <article class="principle reveal d1">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M11 18h2"/></svg>
+          <h3>No account needed</h3>
+          <p>Play as a guest. Your progress stays on your phone until you choose to sign in.</p>
+        </article>
+        <article class="principle reveal d2">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3v18h18"/><path d="m7 15 4-4 3 3 5-6"/></svg>
+          <h3>Real market data</h3>
+          <p>UK market prices, refreshed daily, with US and Cardmarket prices on every reveal where available.</p>
+        </article>
+        <article class="principle reveal d3">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          <h3>Your data</h3>
+          <p>No tracking across other apps. Turn analytics off any time in Profile. <a href="{{ '/privacy' | relative_url }}">Privacy policy</a></p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="faq">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="kicker">FAQ</p>
+        <h2>Good questions</h2>
+      </div>
+      <div class="faq-list reveal">
+        <details>
+          <summary>Is CardIQ free?</summary>
+          <p>Yes. There are no ads and no in-app purchases.</p>
+        </details>
+        <details>
+          <summary>Where do the prices come from?</summary>
+          <p>Prices are UK market values from PokePulse, refreshed daily. Each reveal also shows US and Cardmarket prices where available and, once enough history has built up, which way the price has moved.</p>
+        </details>
+        <details>
+          <summary>Which cards are in it?</summary>
+          <p>{{ show.stats.cards }} English-language Pokémon cards from {{ show.stats.sets }} sets, released between {{ show.stats.firstYear }} and {{ show.stats.lastYear }}. Classic and the Daily deal cards worth between £5 and £1,000.</p>
+        </details>
+        <details>
+          <summary>When does the Daily reset?</summary>
+          <p>At midnight UK time. Everyone gets the same five cards, and each guess is locked in before the price is revealed.</p>
+        </details>
+        <details>
+          <summary>Do I need an account?</summary>
+          <p>No. Every mode works as a guest. Sign in with Apple or Google if you want the Daily leaderboard or to sync your progress between devices.</p>
+        </details>
+        <details>
+          <summary>Is it on Android?</summary>
+          <p>Not yet. CardIQ is launching on iPhone first.</p>
+        </details>
+      </div>
+      <p class="faq-more"><a href="{{ '/support' | relative_url }}">More answers on the support page →</a></p>
+    </div>
+  </section>
+
+  <section class="cta-band">
+    <div class="wrap reveal">
+      <h2>Think you know<br><span>the market?</span></h2>
+      <p>Five cards a day will tell you. Price them closer than your friends and prove it.</p>
+      <div class="hero-actions">
+        {% include store-cta.html %}
+      </div>
+    </div>
+  </section>
+
+</main>
+
+{% include footer.html %}
+
+<script id="demo-cards" type="application/json">{{ show.demo | jsonify }}</script>
+<script src="{{ '/assets/home.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>

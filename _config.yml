@@ -1,6 +1,13 @@
 title: CardIQ
-description: The trading card price-guessing game.
+description: Guess the real market price of trading cards. A new Daily Challenge every midnight, six ways to play and a Market IQ that measures your eye.
+url: https://playcardiq.com
 markdown: kramdown
+
+# At launch, set this to the App Store ID (6816035368). Every "Coming soon to
+# iPhone" button then becomes the App Store badge, and Safari shows its Smart
+# App Banner.
+app_store_id:
+
 defaults:
   - scope:
       path: ""
@@ -11,3 +18,4 @@ include:
   - .well-known
 exclude:
   - README.md
+  - scripts
