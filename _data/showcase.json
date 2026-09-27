@@ -1,13 +1,19 @@
 {
-  "priceDate": "2026-09-25",
-  "priceDateLabel": "25 September 2026",
+  "priceDate": "2026-09-27",
+  "priceDateLabel": "27 September 2026",
   "stats": {
-    "cards": "2,744",
-    "sets": 226,
+    "cards": "6,349",
+    "sets": 195,
     "firstYear": 1999,
     "lastYear": 2026
   },
   "ticker": [
+    {
+      "label": "MEW R/RGB",
+      "price": "£3,404",
+      "change": null,
+      "up": false
+    },
     {
       "label": "HO-OH 149/144",
       "price": "£3,175",
@@ -40,19 +46,13 @@
     },
     {
       "label": "CHARIZARD 3/110",
-      "price": "£2,311",
+      "price": "£2,459",
       "change": null,
       "up": false
     },
     {
-      "label": "VOLTORB 100/165",
-      "price": "£2,207",
-      "change": null,
-      "up": false
-    },
-    {
-      "label": "PSYDUCK 104/147",
-      "price": "£2,121",
+      "label": "BLASTOISE 2/102",
+      "price": "£2,050",
       "change": null,
       "up": false
     },
@@ -65,12 +65,6 @@
     {
       "label": "POKÉMON CENTER 40",
       "price": "£1,591",
-      "change": null,
-      "up": false
-    },
-    {
-      "label": "SUICUNE ☆ 115/115",
-      "price": "£1,588",
       "change": null,
       "up": false
     },
@@ -103,41 +97,25 @@
       "price": "£1,330",
       "change": null,
       "up": false
+    },
+    {
+      "label": "GYARADOS ☆ 102/110",
+      "price": "£1,326",
+      "change": null,
+      "up": false
     }
   ],
   "demo": [
     {
-      "name": "Shining Charizard",
-      "set": "Neo Destiny",
-      "number": "107/105",
-      "year": "2002",
-      "rarity": "Rare Secret",
-      "finish": "Holo",
-      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/N4/Shining_Charizard_107_105.webp",
-      "price": 1308.87,
-      "us": 1533.2
-    },
-    {
-      "name": "Pikachu",
-      "set": "Wizards of the Coast Promos",
-      "number": "1",
-      "year": "1999",
-      "rarity": "Promo",
-      "finish": "1st Edition Error · Non-holo",
-      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/WP/Pikachu_1.webp",
-      "price": 1120.08,
-      "us": 1259.93
-    },
-    {
-      "name": "Umbreon",
-      "set": "Aquapolis",
-      "number": "H29/H32",
-      "year": "2003",
+      "name": "Blaine's Charizard",
+      "set": "Gym Challenge",
+      "number": "2/132",
+      "year": "2000",
       "rarity": "Rare Holo",
-      "finish": "Holo",
-      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/AQ/Umbreon_H29_H32.webp",
-      "price": 1094.93,
-      "us": 1175.83
+      "finish": "1st Edition · Holo",
+      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/G2/Blaine_s_Charizard_2_132.webp",
+      "price": 1085.3,
+      "us": 1031.22
     },
     {
       "name": "Lugia ex",
@@ -159,7 +137,7 @@
       "finish": "Holo",
       "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/30C/Mew_B_RGB.webp",
       "price": 3043.63,
-      "us": 3044.95
+      "us": 3045.6
     },
     {
       "name": "Gengar",
@@ -180,8 +158,30 @@
       "rarity": "Rare Holo",
       "finish": "1st Edition, Shadowless · Holo",
       "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/BS/Mewtwo_10_102.webp",
-      "price": 1218.94,
-      "us": 1074.59
+      "price": 1224.35,
+      "us": 1074.57
+    },
+    {
+      "name": "Blastoise",
+      "set": "Base Set (1st Edition)",
+      "number": "2/102",
+      "year": "1999",
+      "rarity": "Rare Holo",
+      "finish": "1st Edition, Shadowless · Holo",
+      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/BS/Blastoise_2_102.webp",
+      "price": 2050.47,
+      "us": 2036.83
+    },
+    {
+      "name": "Gyarados ☆",
+      "set": "EX Holon Phantoms",
+      "number": "102/110",
+      "year": "2006",
+      "rarity": "Rare Holo ☆",
+      "finish": "Holo",
+      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/HP/Gyarados_102_110.webp",
+      "price": 1326.46,
+      "us": 1320.52
     },
     {
       "name": "Entei ☆",
@@ -206,15 +206,15 @@
       "us": 1393.56
     },
     {
-      "name": "Jolteon ☆",
-      "set": "EX Power Keepers",
-      "number": "101/108",
-      "year": "2007",
-      "rarity": "Rare Holo ☆",
+      "name": "Nidoking",
+      "set": "Aquapolis",
+      "number": "150/147",
+      "year": "2003",
+      "rarity": "Rare Secret",
       "finish": "Holo",
-      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/PK/Jolteon_101_108.webp",
-      "price": 1080.84,
-      "us": 1007.71
+      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/AQ/Nidoking_150_147.webp",
+      "price": 1183.76,
+      "us": 1090.25
     }
   ]
 }
