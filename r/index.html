@@ -1,0 +1,52 @@
+---
+title: Join my CardIQ room
+description: You've been invited to a CardIQ room. Everyone plays the same trading cards, then you see who knows the market best.
+---
+<style>
+  .actions { display: flex; flex-wrap: wrap; gap: 12px; margin: 28px 0 8px; }
+  .button {
+    display: inline-flex; align-items: center; min-height: 52px; padding: 0 22px; border-radius: 12px;
+    font: 700 14px/1 'JetBrains Mono', ui-monospace, monospace; letter-spacing: .1em; text-transform: uppercase;
+    text-decoration: none; border: 1px solid var(--lime);
+  }
+  .button.primary { background: var(--lime); color: var(--ink); }
+  .button.secondary { color: var(--paper); border-color: var(--rule); }
+  .code {
+    display: inline-block; margin: 8px 0 4px; font: 800 64px/1.1 'JetBrains Mono', ui-monospace, monospace;
+    letter-spacing: .16em; color: var(--paper);
+  }
+</style>
+
+<p class="kicker">Room</p>
+
+<h1 id="headline">You're invited to a room</h1>
+
+<p class="code" id="code" hidden></p>
+
+<p class="lede">Everyone in the room plays the same trading cards, whenever suits them. The leaderboard fills in as each result comes in.</p>
+
+<div class="actions">
+  <a class="button primary" id="open" href="cardiq://">Open in CardIQ</a>
+  {% if site.app_store_id %}<a class="button secondary" href="https://apps.apple.com/gb/app/id{{ site.app_store_id }}">Get CardIQ</a>{% endif %}
+</div>
+
+{% if site.app_store_id %}
+<p>If CardIQ is installed, the room opens in the app. If not, get it free on the App Store, then tap this link again, or choose <strong>Join with code</strong> on the home screen and enter the code above.</p>
+{% else %}
+<p>CardIQ is coming to iPhone soon. If you already have it, <strong>Open in CardIQ</strong> takes you straight to the room, or choose <strong>Join with code</strong> on the home screen.</p>
+{% endif %}
+
+<script>
+  // Mirrors normalizeRoomCode() in the app's src/engine/rooms.ts.
+  (function () {
+    var alphabet = 'BCDFGHJKLMNPQRSTVWXZ23456789';
+    var raw = (new URLSearchParams(location.search).get('code') || '').toUpperCase();
+    var code = raw.split('').filter(function (c) { return alphabet.indexOf(c) >= 0; }).join('').slice(0, 4);
+    if (code.length !== 4) return;
+    document.getElementById('headline').textContent = "You're invited to room " + code;
+    var el = document.getElementById('code');
+    el.textContent = code;
+    el.hidden = false;
+    document.getElementById('open').href = 'cardiq://r?code=' + code;
+  })();
+</script>

@@ -3,7 +3,10 @@
     "details": [
       {
         "appIDs": ["U7AC2W5C3R.com.charliehorton.cardiq"],
-        "components": [{ "/": "/c/*", "comment": "Challenge links open the same deal in the app" }]
+        "components": [
+          { "/": "/c/*", "comment": "Challenge links open the same deal in the app" },
+          { "/": "/r/*", "comment": "Room links open the room in the app" }
+        ]
       }
     ]
   }

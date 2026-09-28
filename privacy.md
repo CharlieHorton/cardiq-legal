@@ -3,7 +3,7 @@ title: Privacy policy
 description: What CardIQ collects, why, and the choices you have.
 ---
 
-<p class="kicker">Updated 25 September 2026</p>
+<p class="kicker">Updated 28 September 2026</p>
 
 # Privacy policy
 
@@ -17,7 +17,7 @@ The app downloads card prices from our server. That request contains no personal
 
 ## If you create an account
 
-Accounts are optional and are only needed for the Daily leaderboard and for syncing progress between devices. You can sign in with Apple or Google.
+Accounts are optional and are only needed for the Daily leaderboard, rooms with friends and syncing progress between devices. You can sign in with Apple or Google.
 
 We store:
 
@@ -27,8 +27,10 @@ We store:
 - an automatically generated username
 - your progress: XP, level, Market IQ, streaks, games played, cards priced and accuracy
 - your game history: the mode you played, the cards you priced, your guesses, your scores and when you played
+- the rooms you start or join, and your scores in them
+- if you allow notifications, a push token for your device, so we can tell you when friends join or finish a room. It's deleted when you sign out
 
-Other players see your username, Daily score and accuracy on the leaderboard. Nothing else about you is public.
+Other players see your username, Daily score and accuracy on the leaderboard. In a room, the other players in it see your username and your scores for that room. Nothing else about you is public.
 
 We use this information only to run your account and the game. The legal basis is providing the service you asked for.
 
@@ -56,11 +58,12 @@ We don't show advertising, track you across other apps or websites, or sell or s
 - **Supabase** hosts our database, sign-in and file storage.
 - **PostHog** receives the usage and crash data above. It's stored in the EU (Frankfurt).
 - **Apple** and **Google** handle sign-in when you choose them.
+- **Expo** passes room notifications to Apple to deliver to your device. They contain usernames and scores from the room, not your email address.
 - **PokePulse** provides card prices. No personal information is sent to them.
 
 ## Keeping and deleting data
 
-We keep account data until you delete your account. You can delete it at any time in the app under **Profile → Delete account**. This permanently removes your account, your leaderboard entries and your synced history.
+We keep account data until you delete your account. You can delete it at any time in the app under **Profile → Delete account**. This permanently removes your account, your leaderboard entries, your room results, your push tokens and your synced history.
 
 PostHog keeps usage and crash data for a limited period. Deleting your account doesn't delete it straight away, but it's no longer linked to anything that identifies you. If you'd like it deleted sooner, email us.
 
