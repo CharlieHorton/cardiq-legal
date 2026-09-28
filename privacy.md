@@ -28,9 +28,10 @@ We store:
 - your progress: XP, level, Market IQ, streaks, games played, cards priced and accuracy
 - your game history: the mode you played, the cards you priced, your guesses, your scores and when you played
 - the rooms you start or join, and your scores in them
+- your binder: the cards you've guessed within 2% of the price, with your guess, the price and when you guessed it
 - if you allow notifications, a push token for your device, so we can tell you when friends join or finish a room. It's deleted when you sign out
 
-Other players see your username, Daily score and accuracy on the leaderboard. In a room, the other players in it see your username and your scores for that room. Anyone you've played a room with can also see your head-to-head record against them: your scores in the rooms and Daily Challenges you've both played. Nothing else about you is public.
+Other players see your username, Daily score and accuracy on the leaderboard. In a room, the other players in it see your username and your scores for that room. Anyone you've played a room with can also see your head-to-head record against them: your scores in the rooms and Daily Challenges you've both played. Signed-in players can open your player page, which shows your username, when you joined, your progress (level, XP, Market IQ, streaks, games played, cards priced and accuracy), how many achievements you have, and your binder. Nothing else about you is public.
 
 We use this information only to run your account and the game. The legal basis is providing the service you asked for.
 
@@ -63,7 +64,7 @@ We don't show advertising, track you across other apps or websites, or sell or s
 
 ## Keeping and deleting data
 
-We keep account data until you delete your account. You can delete it at any time in the app under **Profile → Delete account**. This permanently removes your account, your leaderboard entries, your room results, your push tokens and your synced history.
+We keep account data until you delete your account. You can delete it at any time in the app under **Profile → Delete account**. This permanently removes your account, your leaderboard entries, your room results, your push tokens, your binder and your synced history.
 
 PostHog keeps usage and crash data for a limited period. Deleting your account doesn't delete it straight away, but it's no longer linked to anything that identifies you. If you'd like it deleted sooner, email us.
 
