@@ -24,13 +24,13 @@ We store:
 - your email address
 - an account ID
 - your name, if your Google profile provides one
-- an automatically generated username
+- a username: one we generate, until you choose your own display name
 - your progress: XP, level, Market IQ, streaks, games played, cards priced and accuracy
 - your game history: the mode you played, the cards you priced, your guesses, your scores and when you played
 - the rooms you start or join, and your scores in them
 - if you allow notifications, a push token for your device, so we can tell you when friends join or finish a room. It's deleted when you sign out
 
-Other players see your username, Daily score and accuracy on the leaderboard. In a room, the other players in it see your username and your scores for that room. Nothing else about you is public.
+Other players see your username, Daily score and accuracy on the leaderboard. In a room, the other players in it see your username and your scores for that room. Anyone you've played a room with can also see your head-to-head record against them: your scores in the rooms and Daily Challenges you've both played. Nothing else about you is public.
 
 We use this information only to run your account and the game. The legal basis is providing the service you asked for.
 

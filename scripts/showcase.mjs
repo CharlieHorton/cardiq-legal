@@ -43,6 +43,29 @@ function change30(card) {
 
 const gbp = (value) => `£${Math.round(value).toLocaleString('en-GB')}`;
 
+// Printing names mirror printingLabel in the app's src/engine/printings.ts, so change both together.
+// Wizards sets that had a 1st Edition print run, whose other cards are Unlimited.
+const FIRST_EDITION_SETS = new Set(['bsu', 'base2', 'base3', 'tr', 'gym1', 'gym2', 'neo1', 'neo2', 'neo3', 'neo4']);
+const FIRST_EDITION_PROMOS = new Set(['1st Edition', '1st Edition, Shadowless']);
+
+/** "1st Edition · Holo", "Unlimited · Holo", "Reverse Holo", or null for a card that only comes one way. */
+function printingLabel(card) {
+  const promo = card.promoInfo ?? null;
+  // EX-era reverse holos carry their set's logo, which PokePulse lists as "EX Delta Species Stamp" and so on.
+  const stamped = /^EX .+ Stamp$/.test(promo ?? '');
+  const edition = FIRST_EDITION_PROMOS.has(promo)
+    ? '1st Edition'
+    : promo === null
+      ? FIRST_EDITION_SETS.has(card.setId)
+        ? 'Unlimited'
+        : null
+      : stamped
+        ? null
+        : promo;
+  const finish = stamped ? 'Reverse Holo' : card.material;
+  return [edition, finish].filter(Boolean).join(' · ') || null;
+}
+
 function round(value, places = 2) {
   const factor = 10 ** places;
   return Math.round(value * factor) / factor;
@@ -57,7 +80,8 @@ const ticker = [
 ]
   .slice(0, TICKER_LENGTH)
   .map(({ card, change }) => ({
-    label: `${card.name} ${card.number}`.toUpperCase(),
+    // Set and printing too: "CHARIZARD 3/110" alone could be a £372 holo or a £2,311 reverse holo.
+    label: [card.name, `${card.setName} ${card.number}`, printingLabel(card)].filter(Boolean).join(' · ').toUpperCase(),
     price: gbp(card.price),
     change: change ? `${change > 0 ? '▲' : '▼'}${(Math.abs(change) * 100).toFixed(1)}%` : null,
     up: change > 0,
@@ -87,7 +111,7 @@ const demo = eligible
     number: card.number,
     year: card.releaseDate?.slice(0, 4) ?? null,
     rarity: card.rarity,
-    finish: [card.promoInfo, card.material].filter(Boolean).join(' · ') || null,
+    finish: printingLabel(card),
     image: card.imageUrl,
     price: round(card.price),
     us: card.sources?.us ? round(card.sources.us) : null,
