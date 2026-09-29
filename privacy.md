@@ -50,6 +50,10 @@ To find bugs and see which parts of the game people enjoy, the app sends usage a
 
 The legal basis is our legitimate interest in keeping the app working and improving it. We don't use this data for advertising or share it with anyone else. You can turn it off at any time in **Profile → Share usage and crash data**.
 
+## CardIQ Pro purchases
+
+CardIQ Pro is a one-time in-app purchase. Apple handles the payment: we never see your card details or your Apple Account. RevenueCat, our purchases provider, checks the purchase with Apple and keeps a record of it, so Pro stays unlocked when you reinstall or use another device. The record holds what you bought, when, the price and your country, against a random ID for this installation of the app. If you sign in, it's linked to your account ID instead. We use this only to unlock Pro. The legal basis is providing the service you asked for.
+
 ## What we don't do
 
 We don't show advertising, track you across other apps or websites, or sell or share your data for marketing.
@@ -58,13 +62,16 @@ We don't show advertising, track you across other apps or websites, or sell or s
 
 - **Supabase** hosts our database, sign-in and file storage.
 - **PostHog** receives the usage and crash data above. It's stored in the EU (Frankfurt).
-- **Apple** and **Google** handle sign-in when you choose them.
+- **RevenueCat** checks CardIQ Pro purchases with Apple and keeps a record of them.
+- **Apple** and **Google** handle sign-in when you choose them. Apple also takes payment for CardIQ Pro.
 - **Expo** passes room notifications to Apple to deliver to your device. They contain usernames and scores from the room, not your email address.
 - **PokePulse** provides card prices. No personal information is sent to them.
 
 ## Keeping and deleting data
 
 We keep account data until you delete your account. You can delete it at any time in the app under **Profile → Delete account**. This permanently removes your account, your leaderboard entries, your room results, your push tokens, your binder and your synced history.
+
+RevenueCat keeps the record of a Pro purchase so it can be restored. Email us if you'd like it deleted.
 
 PostHog keeps usage and crash data for a limited period. Deleting your account doesn't delete it straight away, but it's no longer linked to anything that identifies you. If you'd like it deleted sooner, email us.
 
