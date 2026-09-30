@@ -3,7 +3,7 @@ layout: base
 body_class: home
 full_title: "CardIQ · What's your Card IQ?"
 og_title: "What's your Card IQ?"
-description: "Guess the real UK market price of trading cards. Watch the price roll in, score up to 1,000 a card and build your Market IQ. A new Daily Challenge every midnight."
+description: "Guess the real UK market price of trading cards. Watch the price roll in, score up to 1,000 a card and build your Market IQ. A new Daily Challenge every midnight, and rooms to play your friends."
 ---
 {%- assign show = site.data.showcase -%}
 {%- assign first = show.demo[0] -%}
@@ -35,7 +35,7 @@ description: "Guess the real UK market price of trading cards. Watch the price r
           <a class="btn btn-ghost try-link" href="#try">Try a card <span class="arrow" aria-hidden="true">↓</span></a>
         </div>
         <ul class="hero-facts">
-          <li>Free</li>
+          <li>Free to play</li>
           <li>No ads</li>
           <li>No account needed</li>
         </ul>
@@ -118,7 +118,7 @@ description: "Guess the real UK market price of trading cards. Watch the price r
                   <li data-bullseyes></li>
                 </ul>
                 <h3 data-summary-title>Not bad at all.</h3>
-                <p>That was three cards. The app deals a new Daily every midnight, six ways to play and a Market IQ that tracks how sharp your eye gets.</p>
+                <p>That was three cards. The app deals a new Daily every midnight, nine ways to play, rooms for your friends and a Market IQ that tracks how sharp your eye gets.</p>
                 <div class="summary-actions">
                   {% include store-cta.html %}
                   <button type="button" class="btn btn-ghost btn-block" data-again>Try three more <span class="arrow" aria-hidden="true">↻</span></button>
@@ -137,7 +137,7 @@ description: "Guess the real UK market price of trading cards. Watch the price r
       <div class="stat"><b>{{ show.stats.cards }}</b><span>Cards priced</span></div>
       <div class="stat"><b>{{ show.stats.sets }}</b><span>Sets</span></div>
       <div class="stat"><b>{{ show.stats.firstYear }}–{{ show.stats.lastYear | slice: 2, 2 }}</b><span>Every era</span></div>
-      <div class="stat"><b>6</b><span>Ways to play</span></div>
+      <div class="stat"><b>9</b><span>Ways to play</span></div>
     </div>
   </section>
 
@@ -180,9 +180,9 @@ description: "Guess the real UK market price of trading cards. Watch the price r
   <section class="section" id="modes">
     <div class="wrap">
       <div class="section-head reveal">
-        <p class="kicker">Six ways to play</p>
+        <p class="kicker">Ways to play</p>
         <h2>Pick your game</h2>
-        <p>Guess the price, pick the band, put cards in order or back your gut on a streak. Every mode deals real cards at real market prices.</p>
+        <p>Guess the price, pick the band, put cards in order, back your gut on a streak or creep up on the price without going over. Every mode deals real cards at real market prices.</p>
       </div>
       <div class="modes-layout">
         <div class="mode-grid">
@@ -216,6 +216,16 @@ description: "Guess the real UK market price of trading cards. Watch the price r
             <h3>Pick the Chase</h3>
             <p>Three cards. Tap the most valuable one.</p>
           </article>
+          <article class="mode reveal">
+            <div class="mode-top"><span class="code">DGO</span><span class="mode-meta">Three lives</span></div>
+            <h3>Don't Go Over</h3>
+            <p>Get as close as you dare without going over. A bullseye wins a life back.</p>
+          </article>
+          <article class="mode reveal d1">
+            <div class="mode-top"><span class="code">RED</span><span class="mode-meta">Practice</span></div>
+            <h3>Redemption</h3>
+            <p>The cards you misjudged come back a few days later for another go.</p>
+          </article>
         </div>
         <div class="duo reveal d2">
           <div class="shot"><img src="{{ '/assets/img/screen-rank-it.webp' | relative_url }}" alt="Rank It: four cards to put in order of value" width="600" height="1232" loading="lazy"></div>
@@ -234,7 +244,8 @@ description: "Guess the real UK market price of trading cards. Watch the price r
         <div class="countdown" aria-live="off">
           <div><p class="label" data-daily-label>Next Daily in</p><span class="countdown-time" data-countdown>--:--:--</span></div>
         </div>
-        <p>Then share your grid. It shows how close you got, never the cards or prices, so nobody gets spoiled.</p>
+        <p>Once you've finished, see how the crowd priced each card and which one fooled the most players. Then share your grid. It shows how close you got, never the cards or prices, so nobody gets spoiled.</p>
+        <p class="fine">No looking prices up: leave the app mid-card and that card scores 0.</p>
       </div>
       <div class="daily-visual reveal d1">
         <div class="bubble-wrap">
@@ -255,18 +266,56 @@ Market IQ: +12
     </div>
   </section>
 
+  <section class="section" id="friends">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="kicker live">Play with friends</p>
+        <h2>Same cards. Who knows best?</h2>
+        <p>Start a room, send the code and everyone plays the same deal whenever they're ready, with a live leaderboard. Or send a challenge link and race a friend's score card by card.</p>
+      </div>
+      <div class="mode-grid">
+        <article class="mode featured wide reveal">
+          <div class="mode-top"><span class="code">ROOM</span><span class="mode-meta">Up to 12 players</span></div>
+          <h3>Rooms</h3>
+          <p>Play any mode as a group, each in your own time. A notification tells you when friends finish, and Rematch deals the next round.</p>
+        </article>
+        <article class="mode reveal">
+          <div class="mode-top"><span class="code">AUC</span><span class="mode-meta">Rooms only</span></div>
+          <h3>Auction</h3>
+          <p>Eight cards and £1,000 each. Bid blind, win the card and pocket the difference. Overpay and you lose money.</p>
+        </article>
+        <article class="mode reveal d1">
+          <div class="mode-top"><span class="code">VS</span><span class="mode-meta">Link</span></div>
+          <h3>Challenge links</h3>
+          <p>Share a Classic, Price Range or Rank It result and your friend gets the same cards, with your score to chase after every answer.</p>
+        </article>
+        <article class="mode reveal">
+          <div class="mode-top"><span class="code">PRT</span><span class="mode-meta">Weekly</span></div>
+          <h3>Fantasy Portfolio</h3>
+          <p>Buy five of the week's sixteen cards with £2,500 of pretend money. The best real price move by Sunday tops the leaderboard.</p>
+        </article>
+        <article class="mode reveal d1">
+          <div class="mode-top"><span class="code">H2H</span><span class="mode-meta">Rivals</span></div>
+          <h3>Head to head</h3>
+          <p>Your record against everyone you've played: wins, losses and who prices closer.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
   <section class="section" id="screener">
     <div class="wrap split reverse">
       <div class="split-copy reveal">
         <p class="kicker">Packs and the Screener</p>
         <h2>Play your corner of the market</h2>
-        <p>Three themed packs go live every Monday. Your first run of each is that week's challenge, dealt the same for everyone.</p>
+        <p>Four packs go live every Monday: a Pokémon, an era, a special and a graded pack. Your first run of each is that week's challenge, dealt the same for everyone.</p>
         <div class="packs">
           <div class="pack"><span class="code">CHZ</span><b>Charizard</b><span>Every flame, from Base Set to ex.</span></div>
           <div class="pack"><span class="code">WTC</span><b>Wizards Vault</b><span>Base Set to Skyridge. Vintage, 1999–2003.</span></div>
           <div class="pack"><span class="code">EEV</span><b>Eeveelutions</b><span>Eevee and all eight evolutions. Moonbreon money.</span></div>
+          <div class="pack"><span class="code">PSA</span><b>PSA 10</b><span>Gem Mint slabs up to £5,000. What's perfect worth?</span></div>
         </div>
-        <p>Or open the Screener. Filter by era, character, set and price, then deal yourself a game in any mode.</p>
+        <p>Or open the Screener with CardIQ Pro. Filter by era, character, set and price, then deal yourself a game in any mode.</p>
         <ul class="chips" aria-label="Example Screener filters">
           <li>WOTC</li><li class="on">EX</li><li>SV+</li><li class="on">Charizard</li><li>Umbreon</li><li>£25–£50</li><li class="on">£100–£250</li>
         </ul>
@@ -280,12 +329,14 @@ Market IQ: +12
   <section class="section" id="market-iq">
     <div class="wrap split">
       <div class="split-copy reveal">
-        <p class="kicker">Market IQ</p>
+        <p class="kicker">Market IQ and progress</p>
         <h2>Skill, not grind</h2>
         <p>Market IQ is a rating out of 1,000 that measures how accurately you price cards. It follows your recent guesses, so it climbs as your eye sharpens, and playing more won't lift it on its own.</p>
         <ul class="iq-points">
-          <li><span class="code">IQ</span><span><b>Rated on your Classic and Daily guesses</b>Packs and Screener games are for fun: they earn XP but leave your rating alone.</span></li>
-          <li><span class="code">XP</span><span><b>Levels and streaks</b>Every game earns XP. Play the Daily each day to keep your streak going.</span></li>
+          <li><span class="code">IQ</span><span><b>Rated on your Classic and Daily guesses</b>Packs, the Screener, rooms and challenges are for fun: they earn XP but leave your rating alone.</span></li>
+          <li><span class="code">XP</span><span><b>Levels, streaks and achievements</b>Every game earns XP. Keep your Daily streak going and unlock over 50 achievements.</span></li>
+          <li><span class="code">BND</span><span><b>The Binder</b>Every bullseye goes in your binder, nine cards to a page. Friends can flick through it.</span></li>
+          <li><span class="code">WCH</span><span><b>The Watchlist</b>Star a card once its price is out and follow where it goes next.</span></li>
           <li><span class="code">SYN</span><span><b>Yours on every device</b>Sign in with Apple or Google to sync your progress and join the leaderboard.</span></li>
         </ul>
       </div>
@@ -305,7 +356,7 @@ Market IQ: +12
         <article class="principle reveal">
           <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.6 13.4 13.4 20.6a2 2 0 0 1-2.8 0L3 13V3h10l7.6 7.6a2 2 0 0 1 0 2.8z"/><circle cx="7.5" cy="7.5" r="1.5"/></svg>
           <h3>Free to play</h3>
-          <p>No ads and no in-app purchases. Points and ratings are for bragging rights only.</p>
+          <p>No ads. The Daily and Classic are always free, with a free run of every other mode each day. CardIQ Pro is one payment, no subscription.</p>
         </article>
         <article class="principle reveal d1">
           <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M11 18h2"/></svg>
@@ -335,7 +386,15 @@ Market IQ: +12
       <div class="faq-list reveal">
         <details>
           <summary>Is CardIQ free?</summary>
-          <p>Yes. There are no ads and no in-app purchases.</p>
+          <p>Yes. There are no ads. The Daily and Classic are free as often as you like, you get one free run of every other mode each day, and every pack's weekly challenge is free. Rooms and challenge links you're invited to are always free.</p>
+        </details>
+        <details>
+          <summary>What does CardIQ Pro add?</summary>
+          <p>Unlimited runs of every mode, the Screener, pack replays, the graded PSA 10 and ACE 10 packs, and hosting rooms. It's a one-time purchase, not a subscription.</p>
+        </details>
+        <details>
+          <summary>Can I play with friends?</summary>
+          <p>Yes. Start a room and share its code or link: up to 12 players get the same cards and a live leaderboard. You can also send a challenge link from a Classic, Price Range or Rank It result, and friends play your cards against your score.</p>
         </details>
         <details>
           <summary>Where do the prices come from?</summary>
@@ -343,15 +402,15 @@ Market IQ: +12
         </details>
         <details>
           <summary>Which cards are in it?</summary>
-          <p>{{ show.stats.cards }} English-language Pokémon cards from {{ show.stats.sets }} sets, released between {{ show.stats.firstYear }} and {{ show.stats.lastYear }}. Classic and the Daily deal cards worth between £5 and £1,000.</p>
+          <p>{{ show.stats.cards }} English-language Pokémon chase cards from {{ show.stats.sets }} sets, released between {{ show.stats.firstYear }} and {{ show.stats.lastYear }}. Classic and the Daily deal cards worth between £5 and £1,000, and the graded packs deal PSA 10 and ACE 10 slabs up to £5,000.</p>
         </details>
         <details>
           <summary>When does the Daily reset?</summary>
-          <p>At midnight UK time. Everyone gets the same five cards, and each guess is locked in before the price is revealed.</p>
+          <p>At midnight UK time. Everyone gets the same five cards, and each guess is locked in before the price is revealed. Leaving the app mid-card scores that card 0.</p>
         </details>
         <details>
           <summary>Do I need an account?</summary>
-          <p>No. Every mode works as a guest. Sign in with Apple or Google if you want the Daily leaderboard or to sync your progress between devices.</p>
+          <p>No. Every solo mode works as a guest. Sign in with Apple or Google to play in rooms, join the leaderboards, earn achievements and sync your progress between devices.</p>
         </details>
         <details>
           <summary>Is it on Android?</summary>

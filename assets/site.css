@@ -188,11 +188,13 @@ p { margin: 0 0 16px; color: var(--copy); }
 .section-head p:not(.kicker) { font-size: 18px; margin-top: 18px; }
 
 .split { display: grid; gap: clamp(40px, 6vw, 80px); align-items: center; }
+.split > * { min-width: 0; }
 @media (min-width: 900px) {
   .split { grid-template-columns: 1fr 1fr; }
   .split.reverse > :first-child { order: 2; }
 }
 .split-copy p:not(.kicker) { font-size: 18px; }
+.split-copy p.fine { font-size: 15px; color: var(--muted); }
 .split-copy h2 { margin-bottom: 22px; }
 
 /* Scroll-in: only once JS is running, so no-JS visitors see everything. */
@@ -434,7 +436,7 @@ input[type="range"] { width: 100%; margin: 14px 0 0; accent-color: var(--lime); 
 .modes-layout { display: grid; gap: 48px; align-items: center; }
 @media (min-width: 1000px) { .modes-layout { grid-template-columns: 1fr 1fr; gap: 56px; } }
 .mode-grid { display: grid; gap: 12px; }
-@media (min-width: 620px) { .mode-grid { grid-template-columns: 1fr 1fr; } }
+@media (min-width: 620px) { .mode-grid { grid-template-columns: 1fr 1fr; } .mode.wide { grid-column: 1 / -1; } }
 .mode {
   position: relative; padding: 20px 20px 18px; border-radius: var(--radius); border: 1px solid var(--rule); background: var(--panel);
   transition: border-color .2s, transform .2s;
@@ -485,7 +487,7 @@ input[type="range"] { width: 100%; margin: 14px 0 0; accent-color: var(--lime); 
 .chips li.on { background: var(--lime); border-color: var(--lime); color: var(--ink); }
 .chips li small { font-size: 11px; color: var(--muted); margin-left: 6px; font-weight: 500; }
 .chips li.on small { color: rgba(10, 12, 11, .6); }
-.packs { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 0 0 28px; }
+.packs { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin: 0 0 28px; }
 @media (max-width: 559px) {
   .packs { grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: 68%; overflow-x: auto; scroll-snap-type: x mandatory; margin-right: calc(var(--gutter) * -1); padding-right: var(--gutter); scrollbar-width: none; }
   .packs::-webkit-scrollbar { display: none; }

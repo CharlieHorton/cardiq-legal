@@ -3,7 +3,7 @@ title: Privacy policy
 description: What CardIQ collects, why, and the choices you have.
 ---
 
-<p class="kicker">Updated 28 September 2026</p>
+<p class="kicker">Updated 30 September 2026</p>
 
 # Privacy policy
 
@@ -17,7 +17,7 @@ The app downloads card prices from our server. That request contains no personal
 
 ## If you create an account
 
-Accounts are optional and are only needed for the Daily leaderboard, rooms with friends and syncing progress between devices. You can sign in with Apple or Google.
+Accounts are optional and are only needed for the leaderboards, rooms with friends, achievements and syncing progress between devices. You can sign in with Apple or Google.
 
 We store:
 
@@ -29,9 +29,11 @@ We store:
 - your game history: the mode you played, the cards you priced, your guesses, your scores and when you played
 - the rooms you start or join, and your scores in them
 - your binder: the cards you've guessed within 2% of the price, with your guess, the price and when you guessed it
+- the achievements you've unlocked, and when
+- your Fantasy Portfolio: the cards you buy each week, what you paid and when
 - if you allow notifications, a push token for your device, so we can tell you when friends join or finish a room. It's deleted when you sign out
 
-Other players see your username, Daily score and accuracy on the leaderboard. In a room, the other players in it see your username and your scores for that room. Anyone you've played a room with can also see your head-to-head record against them: your scores in the rooms and Daily Challenges you've both played. Signed-in players can open your player page, which shows your username, when you joined, your progress (level, XP, Market IQ, streaks, games played, cards priced and accuracy), how many achievements you have, and your binder. Nothing else about you is public.
+Other players see your username, Daily score and accuracy on the Daily leaderboard, and your username and each week's Fantasy Portfolio cost, value and return on its leaderboard. Once other players have finished a Daily, they see crowd figures for each card, such as the median guess. These are worked out from everyone's guesses together and never show who guessed what. In a room, the other players in it see your username and your scores for that room. Anyone you've played a room with can also see your head-to-head record against them: your scores in the rooms and Daily Challenges you've both played. Signed-in players can open your player page, which shows your username, when you joined, your progress (level, XP, Market IQ, streaks, games played, cards priced and accuracy), how many achievements you have, and your binder. Nothing else about you is public.
 
 We use this information only to run your account and the game. The legal basis is providing the service you asked for.
 
@@ -39,7 +41,7 @@ We use this information only to run your account and the game. The legal basis i
 
 To find bugs and see which parts of the game people enjoy, the app sends usage and crash data to PostHog, our analytics provider:
 
-- the screens you open and the games you finish: mode, score, number of cards, time taken and average accuracy
+- the screens you open and the games you finish: mode, score, number of cards, time taken, how long you took over each card, any cards you left the app during, and average accuracy
 - your level, Market IQ, XP, streaks and games played
 - sign-ins and sign-ups (which provider you used, not your email address or name) and shares of your Daily result
 - crash reports and error details
@@ -69,7 +71,7 @@ We don't show advertising, track you across other apps or websites, or sell or s
 
 ## Keeping and deleting data
 
-We keep account data until you delete your account. You can delete it at any time in the app under **Profile → Delete account**. This permanently removes your account, your leaderboard entries, your room results, your push tokens, your binder and your synced history.
+We keep account data until you delete your account. You can delete it at any time in the app under **Profile → Delete account**. This permanently removes your account, your leaderboard entries, your room results, your push tokens, your binder, your achievements, your Fantasy Portfolios and your synced history.
 
 RevenueCat keeps the record of a Pro purchase so it can be restored. Email us if you'd like it deleted.
 

@@ -3,7 +3,7 @@ title: Terms of use
 description: The terms for playing CardIQ.
 ---
 
-<p class="kicker">Updated 25 September 2026</p>
+<p class="kicker">Updated 30 September 2026</p>
 
 # Terms of use
 
@@ -11,7 +11,11 @@ description: The terms for playing CardIQ.
 
 ## The game
 
-CardIQ is a free game for entertainment. You guess the market value of trading cards and score points for accuracy. Points, levels, streaks and Market IQ have no monetary value and can't be exchanged for anything.
+CardIQ is a game for entertainment. You guess the market value of trading cards and score points for accuracy. Points, levels, streaks, achievements, Market IQ and the pretend money in the Auction and Fantasy Portfolio have no monetary value and can't be exchanged for anything.
+
+## CardIQ Pro
+
+CardIQ is free to play. CardIQ Pro is an optional one-time purchase that unlocks more of the game, as described in the app. Apple takes payment, and refunds are handled by Apple under its own terms. Pro is tied to your Apple Account, and you can restore it under **Profile → CardIQ Pro → Restore purchases**.
 
 ## Prices aren't advice
 
@@ -21,11 +25,13 @@ Card prices come from third-party market data and may be out of date, incomplete
 
 You don't need an account to play. If you create one, keep your sign-in method secure. You can delete your account at any time under **Profile → Delete account**.
 
-We may suspend or remove accounts that cheat, abuse the service, interfere with other players, or try to manipulate the leaderboard.
+Your display name is shown to other players. Don't choose one that's offensive, impersonates someone or infringes anyone's rights. We may change a name that breaks this rule.
+
+We may suspend or remove accounts that cheat, abuse the service, interfere with other players, or try to manipulate a leaderboard.
 
 ## Fair play
 
-Don't try to reverse engineer the scoring, automate guesses, or access CardIQ's servers other than through the app.
+Don't try to reverse engineer the scoring, automate guesses, look prices up mid-game, or access CardIQ's servers other than through the app. In shared games (the Daily, weekly pack challenges, rooms and challenge links), leaving the app mid-card scores that card 0.
 
 ## Trademarks and content
 
