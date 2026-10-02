@@ -1,8 +1,8 @@
 {
-  "priceDate": "2026-10-01",
-  "priceDateLabel": "1 October 2026",
+  "priceDate": "2026-10-02",
+  "priceDateLabel": "2 October 2026",
   "stats": {
-    "cards": "6,364",
+    "cards": "6,366",
     "sets": 201,
     "firstYear": 1999,
     "lastYear": 2026
@@ -22,7 +22,7 @@
     },
     {
       "label": "MEW · 30TH CELEBRATION R/RGB · HOLO",
-      "price": "£3,207",
+      "price": "£3,512",
       "change": null,
       "up": false
     },
@@ -45,12 +45,6 @@
       "up": false
     },
     {
-      "label": "MEW · 30TH CELEBRATION B/RGB · HOLO",
-      "price": "£2,615",
-      "change": null,
-      "up": false
-    },
-    {
       "label": "LUGIA · AQUAPOLIS 149/147 · HOLO",
       "price": "£2,612",
       "change": null,
@@ -65,6 +59,12 @@
     {
       "label": "CHARIZARD · SKYRIDGE 146/144 · HOLO",
       "price": "£2,557",
+      "change": null,
+      "up": false
+    },
+    {
+      "label": "MEW · 30TH CELEBRATION B/RGB · HOLO",
+      "price": "£2,507",
       "change": null,
       "up": false
     },
@@ -93,14 +93,14 @@
       "up": false
     },
     {
-      "label": "SHINING MEWTWO · NEO DESTINY 109/105 · 1ST EDITION · HOLO",
-      "price": "£2,047",
+      "label": "SHINING GYARADOS · NEO REVELATION 65/64 · 1ST EDITION · HOLO",
+      "price": "£2,076",
       "change": null,
       "up": false
     },
     {
-      "label": "BLASTOISE · BASE SET (1ST EDITION) 2/102 · 1ST EDITION · HOLO",
-      "price": "£2,044",
+      "label": "SHINING MEWTWO · NEO DESTINY 109/105 · 1ST EDITION · HOLO",
+      "price": "£2,047",
       "change": null,
       "up": false
     }
@@ -129,15 +129,15 @@
       "us": 2550.54
     },
     {
-      "name": "Lugia",
-      "set": "Neo Genesis",
-      "number": "9/111",
-      "year": "2000",
-      "rarity": "Rare Holo",
-      "finish": "1st Edition · Holo",
-      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/N1/Lugia_9_111.webp",
-      "price": 1396.3,
-      "us": 1835
+      "name": "Lugia ex",
+      "set": "EX Unseen Forces",
+      "number": "105/115",
+      "year": "2005",
+      "rarity": "Rare Holo ex",
+      "finish": "Holo",
+      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/UF/Lugia_ex_105_115.webp",
+      "price": 1204.25,
+      "us": 960.36
     },
     {
       "name": "Mew",
@@ -147,19 +147,19 @@
       "rarity": "Promo",
       "finish": "Holo",
       "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/30C/Mew_B_RGB.webp",
-      "price": 2615.23,
+      "price": 2507.36,
       "us": 3045.6
     },
     {
-      "name": "Gengar ex",
-      "set": "EX FireRed & LeafGreen",
-      "number": "108/112",
-      "year": "2004",
-      "rarity": "Rare Holo ex",
-      "finish": "Holo",
-      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/RG/Gengar_ex_108_112.webp",
-      "price": 1372.63,
-      "us": 1372.63
+      "name": "Sabrina's Gengar",
+      "set": "Gym Heroes",
+      "number": "14/132",
+      "year": "2000",
+      "rarity": "Rare Holo",
+      "finish": "1st Edition · Holo",
+      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/G1/Sabrina_s_Gengar_14_132.webp",
+      "price": 1311.97,
+      "us": 1281.58
     },
     {
       "name": "Mewtwo",
@@ -206,15 +206,15 @@
       "us": 1580.01
     },
     {
-      "name": "Registeel ☆",
-      "set": "EX Legend Maker",
-      "number": "92/92",
+      "name": "Gyarados ☆",
+      "set": "EX Holon Phantoms",
+      "number": "102/110",
       "year": "2006",
       "rarity": "Rare Holo ☆",
       "finish": "Holo",
-      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/LM/Registeel_92_92.webp",
-      "price": 1220.22,
-      "us": 1055.54
+      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/HP/Gyarados_102_110.webp",
+      "price": 4578.17,
+      "us": 4578.17
     }
   ]
 }
