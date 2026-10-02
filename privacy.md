@@ -3,7 +3,7 @@ title: Privacy policy
 description: What CardIQ collects, why, and the choices you have.
 ---
 
-<p class="kicker">Updated 30 September 2026</p>
+<p class="kicker">Updated 2 October 2026</p>
 
 # Privacy policy
 
@@ -27,13 +27,13 @@ We store:
 - a username: one we generate, until you choose your own display name
 - your progress: XP, level, Market IQ, streaks, games played, cards priced and accuracy
 - your game history: the mode you played, the cards you priced, your guesses, your scores and when you played
-- the rooms you start or join, and your scores in them
+- the rooms you start or join, and your scores and answers in them, including live auction bids, readiness and pretend cash balances
 - your binder: the cards you've guessed within 2% of the price, with your guess, the price and when you guessed it
 - the achievements you've unlocked, and when
 - your Fantasy Portfolio: the cards you buy each week, what you paid and when
 - if you allow notifications, a push token for your device, so we can tell you when friends join or finish a room. It's deleted when you sign out
 
-Other players see your username, Daily score and accuracy on the Daily leaderboard, and your username and each week's Fantasy Portfolio cost, value and return on its leaderboard. Once other players have finished a Daily, they see crowd figures for each card, such as the median guess. These are worked out from everyone's guesses together and never show who guessed what. In a room, the other players in it see your username and your scores for that room. Anyone you've played a room with can also see your head-to-head record against them: your scores in the rooms and Daily Challenges you've both played. Signed-in players can open your player page, which shows your username, when you joined, your progress (level, XP, Market IQ, streaks, games played, cards priced and accuracy), how many achievements you have, and your binder. Nothing else about you is public.
+Other players see your username, Daily score and accuracy on the Daily leaderboard, and your username and each week's Fantasy Portfolio cost, value and return on its leaderboard. Once other players have finished a Daily, they see crowd figures for each card, such as the median guess. These are worked out from everyone's guesses together and never show who guessed what. In a room, the other players in it see your username and your scores for that room, and once they've played it themselves, what you answered on each card. In a Live Auction, everyone in that room sees your ready status, accepted bids, remaining pretend cash and profit as the auction happens. Anyone you've played a room with can also see your head-to-head record against them: your scores in the rooms and Daily Challenges you've both played. Signed-in players can open your player page, which shows your username, when you joined, your progress (level, XP, Market IQ, streaks, games played, cards priced and accuracy), how many achievements you have, and your binder. Nothing else about you is public.
 
 We use this information only to run your account and the game. The legal basis is providing the service you asked for.
 
