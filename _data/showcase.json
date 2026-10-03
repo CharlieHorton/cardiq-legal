@@ -1,8 +1,8 @@
 {
-  "priceDate": "2026-10-02",
-  "priceDateLabel": "2 October 2026",
+  "priceDate": "2026-10-03",
+  "priceDateLabel": "3 October 2026",
   "stats": {
-    "cards": "6,366",
+    "cards": "6,370",
     "sets": 201,
     "firstYear": 1999,
     "lastYear": 2026
@@ -11,12 +11,6 @@
     {
       "label": "GYARADOS ☆ · EX HOLON PHANTOMS 102/110 · HOLO",
       "price": "£4,578",
-      "change": null,
-      "up": false
-    },
-    {
-      "label": "GENGAR · LEGENDARY COLLECTION 11/110 · REVERSE HOLO",
-      "price": "£3,900",
       "change": null,
       "up": false
     },
@@ -41,6 +35,12 @@
     {
       "label": "GENGAR · SKYRIDGE H9/H32 · HOLO",
       "price": "£2,800",
+      "change": null,
+      "up": false
+    },
+    {
+      "label": "GENGAR · LEGENDARY COLLECTION 11/110 · REVERSE HOLO",
+      "price": "£2,700",
       "change": null,
       "up": false
     },
@@ -75,12 +75,6 @@
       "up": false
     },
     {
-      "label": "MEW · 30TH CELEBRATION G/RGB · HOLO",
-      "price": "£2,470",
-      "change": null,
-      "up": false
-    },
-    {
       "label": "CHARIZARD · LEGENDARY COLLECTION 3/110 · REVERSE HOLO",
       "price": "£2,459",
       "change": null,
@@ -89,6 +83,12 @@
     {
       "label": "TORCHIC ☆ · EX TEAM ROCKET RETURNS 108/109 · HOLO",
       "price": "£2,325",
+      "change": null,
+      "up": false
+    },
+    {
+      "label": "MEW · 30TH CELEBRATION G/RGB · HOLO",
+      "price": "£2,208",
       "change": null,
       "up": false
     },
@@ -115,7 +115,7 @@
       "finish": "Shadowless · Holo",
       "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/bss/Charizard_4_102.webp",
       "price": 1477.86,
-      "us": 1566.89
+      "us": 1526.72
     },
     {
       "name": "Umbreon",
@@ -125,8 +125,8 @@
       "rarity": "Rare Holo",
       "finish": "1st Edition · Holo",
       "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/N2/Umbreon_13_75.webp",
-      "price": 1476.03,
-      "us": 2550.54
+      "price": 1613.51,
+      "us": 2100.35
     },
     {
       "name": "Lugia ex",
@@ -148,29 +148,29 @@
       "finish": "Holo",
       "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/30C/Mew_B_RGB.webp",
       "price": 2507.36,
-      "us": 3045.6
+      "us": 2775.35
     },
     {
-      "name": "Sabrina's Gengar",
-      "set": "Gym Heroes",
-      "number": "14/132",
-      "year": "2000",
+      "name": "Gengar",
+      "set": "Legendary Collection",
+      "number": "11/110",
+      "year": "2002",
       "rarity": "Rare Holo",
-      "finish": "1st Edition · Holo",
-      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/G1/Sabrina_s_Gengar_14_132.webp",
-      "price": 1311.97,
-      "us": 1281.58
+      "finish": "Reverse Holo",
+      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/LC/gengar-11-110-reverse-holo.webp",
+      "price": 2700,
+      "us": 6587.92
     },
     {
-      "name": "Mewtwo",
-      "set": "Base Set (1st Edition)",
-      "number": "10/102",
-      "year": "1999",
-      "rarity": "Rare Holo",
-      "finish": "1st Edition · Holo",
-      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/BS/Mewtwo_10_102.webp",
-      "price": 1015.16,
-      "us": 1391.34
+      "name": "Mewtwo ☆",
+      "set": "EX Holon Phantoms",
+      "number": "103/110",
+      "year": "2006",
+      "rarity": "Rare Holo ☆",
+      "finish": "Holo",
+      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/HP/Mewtwo_103_110.webp",
+      "price": 1697.82,
+      "us": 2238.12
     },
     {
       "name": "Blastoise",
@@ -184,17 +184,6 @@
       "us": 1769.79
     },
     {
-      "name": "Treecko ☆",
-      "set": "EX Team Rocket Returns",
-      "number": "109/109",
-      "year": "2004",
-      "rarity": "Rare Holo ☆",
-      "finish": "Holo",
-      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/TR/Treecko_109_109.webp",
-      "price": 3043.75,
-      "us": 3043.75
-    },
-    {
       "name": "Groudon ☆",
       "set": "EX Delta Species",
       "number": "111/113",
@@ -206,15 +195,26 @@
       "us": 1580.01
     },
     {
-      "name": "Gyarados ☆",
-      "set": "EX Holon Phantoms",
-      "number": "102/110",
-      "year": "2006",
-      "rarity": "Rare Holo ☆",
-      "finish": "Holo",
-      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/HP/Gyarados_102_110.webp",
-      "price": 4578.17,
-      "us": 4578.17
+      "name": "Shining Gyarados",
+      "set": "Neo Revelation",
+      "number": "65/64",
+      "year": "2001",
+      "rarity": "Rare Secret",
+      "finish": "1st Edition · Holo",
+      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/N3/Shining_Gyarados_65_64.webp",
+      "price": 2075.61,
+      "us": 1838.24
+    },
+    {
+      "name": "Shining Magikarp",
+      "set": "Neo Revelation",
+      "number": "66/64",
+      "year": "2001",
+      "rarity": "Rare Secret",
+      "finish": "1st Edition · Holo",
+      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/N3/Shining_Magikarp_66_64.webp",
+      "price": 1070.08,
+      "us": 1112.39
     }
   ]
 }
