@@ -1,13 +1,19 @@
 {
-  "priceDate": "2026-10-04",
-  "priceDateLabel": "4 October 2026",
+  "priceDate": "2026-10-05",
+  "priceDateLabel": "5 October 2026",
   "stats": {
-    "cards": "6,372",
+    "cards": "6,374",
     "sets": 202,
     "firstYear": 1999,
     "lastYear": 2026
   },
   "ticker": [
+    {
+      "label": "CHARIZARD · BASE SET (1ST EDITION) 4/102 · 1ST EDITION · HOLO",
+      "price": "£4,908",
+      "change": null,
+      "up": false
+    },
     {
       "label": "GYARADOS ☆ · EX HOLON PHANTOMS 102/110 · HOLO",
       "price": "£4,578",
@@ -39,6 +45,12 @@
       "up": false
     },
     {
+      "label": "LATIAS & LATIOS GX · TEAM UP 170/181 · HOLO",
+      "price": "£2,722",
+      "change": null,
+      "up": false
+    },
+    {
       "label": "GENGAR · LEGENDARY COLLECTION 11/110 · REVERSE HOLO",
       "price": "£2,700",
       "change": null,
@@ -47,12 +59,6 @@
     {
       "label": "LUGIA · AQUAPOLIS 149/147 · HOLO",
       "price": "£2,612",
-      "change": null,
-      "up": false
-    },
-    {
-      "label": "LATIAS & LATIOS GX · TEAM UP 170/181 · HOLO",
-      "price": "£2,591",
       "change": null,
       "up": false
     },
@@ -94,13 +100,7 @@
     },
     {
       "label": "MEW · 30TH CELEBRATION G/RGB · HOLO",
-      "price": "£2,208",
-      "change": null,
-      "up": false
-    },
-    {
-      "label": "SHINING GYARADOS · NEO REVELATION 65/64 · 1ST EDITION · HOLO",
-      "price": "£2,076",
+      "price": "£2,213",
       "change": null,
       "up": false
     }
@@ -108,25 +108,25 @@
   "demo": [
     {
       "name": "Charizard",
-      "set": "Base Set (Shadowless)",
+      "set": "Base Set (1st Edition)",
       "number": "4/102",
       "year": "1999",
       "rarity": "Rare Holo",
-      "finish": "Shadowless · Holo",
-      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/bss/Charizard_4_102.webp",
-      "price": 1477.86,
-      "us": 1526.08
+      "finish": "1st Edition · Holo",
+      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/BS/Charizard_4_102.webp",
+      "price": 4908.39,
+      "us": 9205.28
     },
     {
       "name": "Umbreon",
-      "set": "Neo Discovery",
-      "number": "13/75",
-      "year": "2001",
+      "set": "Aquapolis",
+      "number": "H29/H32",
+      "year": "2003",
       "rarity": "Rare Holo",
-      "finish": "1st Edition · Holo",
-      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/N2/Umbreon_13_75.webp",
-      "price": 1601.44,
-      "us": 2100.1
+      "finish": "Holo",
+      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/AQ/Umbreon_H29_H32.webp",
+      "price": 1021.19,
+      "us": 1021.19
     },
     {
       "name": "Lugia",
@@ -136,8 +136,8 @@
       "rarity": "Rare Holo",
       "finish": "1st Edition · Holo",
       "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/N1/Lugia_9_111.webp",
-      "price": 1272.65,
-      "us": 2706.79
+      "price": 1287.63,
+      "us": 2913.09
     },
     {
       "name": "Mew",
@@ -147,19 +147,19 @@
       "rarity": "Promo",
       "finish": "Holo",
       "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/30C/Mew_G_RGB.webp",
-      "price": 2207.52,
-      "us": 3000.88
+      "price": 2213.47,
+      "us": 2994.86
     },
     {
-      "name": "Gengar",
-      "set": "Legendary Collection",
-      "number": "11/110",
-      "year": "2002",
+      "name": "Sabrina's Gengar",
+      "set": "Gym Heroes",
+      "number": "14/132",
+      "year": "2000",
       "rarity": "Rare Holo",
-      "finish": "Reverse Holo",
-      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/LC/gengar-11-110-reverse-holo.webp",
-      "price": 2700,
-      "us": 6587.92
+      "finish": "1st Edition · Holo",
+      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/G1/Sabrina_s_Gengar_14_132.webp",
+      "price": 1569.76,
+      "us": 1281.72
     },
     {
       "name": "Mewtwo",
@@ -184,37 +184,37 @@
       "us": 1769.79
     },
     {
-      "name": "Registeel ☆",
-      "set": "EX Legend Maker",
-      "number": "92/92",
-      "year": "2006",
+      "name": "Alakazam",
+      "set": "Base Set (1st Edition)",
+      "number": "1/102",
+      "year": "1999",
+      "rarity": "Rare Holo",
+      "finish": "1st Edition · Holo",
+      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/BS/Alakazam_1_102.webp",
+      "price": 1047.6,
+      "us": 988.94
+    },
+    {
+      "name": "Venusaur",
+      "set": "Base Set (1st Edition)",
+      "number": "15/102",
+      "year": "1999",
+      "rarity": "Rare Holo",
+      "finish": "1st Edition · Holo",
+      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/BS/Venusaur_15_102.webp",
+      "price": 1327.92,
+      "us": 1465.79
+    },
+    {
+      "name": "Entei ☆",
+      "set": "EX Unseen Forces",
+      "number": "113/115",
+      "year": "2005",
       "rarity": "Rare Holo ☆",
       "finish": "Holo",
-      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/LM/Registeel_92_92.webp",
-      "price": 1220.22,
-      "us": 1055.54
-    },
-    {
-      "name": "Shining Magikarp",
-      "set": "Neo Revelation",
-      "number": "66/64",
-      "year": "2001",
-      "rarity": "Rare Secret",
-      "finish": "1st Edition · Holo",
-      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/N3/Shining_Magikarp_66_64.webp",
-      "price": 1110.1,
-      "us": 1339.21
-    },
-    {
-      "name": "Latias & Latios GX",
-      "set": "Team Up",
-      "number": "170/181",
-      "year": "2019",
-      "rarity": "Rare Ultra",
-      "finish": "Holo",
-      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/TEU/Latias_Latios-GX_170_181.webp",
-      "price": 2590.7,
-      "us": 2749.31
+      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/UF/Entei_113_115.webp",
+      "price": 1519.45,
+      "us": 1519.45
     }
   ]
 }
