@@ -1,16 +1,16 @@
 {
-  "priceDate": "2026-10-05",
-  "priceDateLabel": "5 October 2026",
+  "priceDate": "2026-10-06",
+  "priceDateLabel": "6 October 2026",
   "stats": {
-    "cards": "6,374",
-    "sets": 202,
+    "cards": "6,385",
+    "sets": 208,
     "firstYear": 1999,
     "lastYear": 2026
   },
   "ticker": [
     {
       "label": "CHARIZARD · BASE SET (1ST EDITION) 4/102 · 1ST EDITION · HOLO",
-      "price": "£4,908",
+      "price": "£4,936",
       "change": null,
       "up": false
     },
@@ -57,6 +57,12 @@
       "up": false
     },
     {
+      "label": "GYARADOS · SKYRIDGE H10/H32 · HOLO",
+      "price": "£2,679",
+      "change": null,
+      "up": false
+    },
+    {
       "label": "LUGIA · AQUAPOLIS 149/147 · HOLO",
       "price": "£2,612",
       "change": null,
@@ -69,20 +75,8 @@
       "up": false
     },
     {
-      "label": "CHARIZARD · SKYRIDGE 146/144 · HOLO",
-      "price": "£2,557",
-      "change": null,
-      "up": false
-    },
-    {
       "label": "MEW · 30TH CELEBRATION B/RGB · HOLO",
       "price": "£2,507",
-      "change": null,
-      "up": false
-    },
-    {
-      "label": "CHARIZARD ☆ · EX DRAGON FRONTIERS 100/101 · HOLO",
-      "price": "£2,502",
       "change": null,
       "up": false
     },
@@ -99,8 +93,14 @@
       "up": false
     },
     {
-      "label": "MEW · 30TH CELEBRATION G/RGB · HOLO",
-      "price": "£2,213",
+      "label": "GROUDON ☆ · EX DELTA SPECIES 111/113 · HOLO",
+      "price": "£2,290",
+      "change": null,
+      "up": false
+    },
+    {
+      "label": "BLASTOISE · BASE SET (1ST EDITION) 2/102 · 1ST EDITION · HOLO",
+      "price": "£2,228",
       "change": null,
       "up": false
     }
@@ -114,8 +114,8 @@
       "rarity": "Rare Holo",
       "finish": "1st Edition · Holo",
       "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/BS/Charizard_4_102.webp",
-      "price": 4908.39,
-      "us": 9205.28
+      "price": 4936.09,
+      "us": 9358.79
     },
     {
       "name": "Umbreon",
@@ -129,15 +129,15 @@
       "us": 1021.19
     },
     {
-      "name": "Lugia",
-      "set": "Neo Genesis",
-      "number": "9/111",
-      "year": "2000",
-      "rarity": "Rare Holo",
-      "finish": "1st Edition · Holo",
-      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/N1/Lugia_9_111.webp",
-      "price": 1287.63,
-      "us": 2913.09
+      "name": "Lugia ex",
+      "set": "EX Unseen Forces",
+      "number": "105/115",
+      "year": "2005",
+      "rarity": "Rare Holo ex",
+      "finish": "Holo",
+      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/UF/Lugia_ex_105_115.webp",
+      "price": 1204.25,
+      "us": 960.36
     },
     {
       "name": "Mew",
@@ -147,7 +147,7 @@
       "rarity": "Promo",
       "finish": "Holo",
       "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/30C/Mew_G_RGB.webp",
-      "price": 2213.47,
+      "price": 2205.86,
       "us": 2994.86
     },
     {
@@ -158,8 +158,8 @@
       "rarity": "Rare Holo",
       "finish": "1st Edition · Holo",
       "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/G1/Sabrina_s_Gengar_14_132.webp",
-      "price": 1569.76,
-      "us": 1281.72
+      "price": 1618.15,
+      "us": 1384.58
     },
     {
       "name": "Mewtwo",
@@ -180,8 +180,8 @@
       "rarity": "Rare Holo",
       "finish": "1st Edition · Holo",
       "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/BS/Blastoise_2_102.webp",
-      "price": 2044.18,
-      "us": 1769.79
+      "price": 2227.69,
+      "us": 2188.12
     },
     {
       "name": "Alakazam",
@@ -202,19 +202,19 @@
       "rarity": "Rare Holo",
       "finish": "1st Edition · Holo",
       "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/BS/Venusaur_15_102.webp",
-      "price": 1327.92,
-      "us": 1465.79
+      "price": 1540.73,
+      "us": 1548.58
     },
     {
-      "name": "Entei ☆",
-      "set": "EX Unseen Forces",
-      "number": "113/115",
-      "year": "2005",
-      "rarity": "Rare Holo ☆",
+      "name": "Gyarados",
+      "set": "Skyridge",
+      "number": "H10/H32",
+      "year": "2003",
+      "rarity": "Rare Holo",
       "finish": "Holo",
-      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/UF/Entei_113_115.webp",
-      "price": 1519.45,
-      "us": 1519.45
+      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/SK/Gyarados_H10_H32.webp",
+      "price": 2679.1,
+      "us": 780.89
     }
   ]
 }
