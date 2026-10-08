@@ -1,8 +1,8 @@
 {
-  "priceDate": "2026-10-07",
-  "priceDateLabel": "7 October 2026",
+  "priceDate": "2026-10-08",
+  "priceDateLabel": "8 October 2026",
   "stats": {
-    "cards": "6,386",
+    "cards": "6,392",
     "sets": 208,
     "firstYear": 1999,
     "lastYear": 2026
@@ -115,7 +115,7 @@
       "finish": "Reverse Holo",
       "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/LC/charizard-3-110-reverse-holo.webp",
       "price": 2403.7,
-      "us": 2220.9
+      "us": 3025.07
     },
     {
       "name": "Umbreon",
@@ -129,15 +129,15 @@
       "us": 3891.92
     },
     {
-      "name": "Lugia ex",
-      "set": "EX Unseen Forces",
-      "number": "105/115",
-      "year": "2005",
-      "rarity": "Rare Holo ex",
+      "name": "Lugia",
+      "set": "Aquapolis",
+      "number": "149/147",
+      "year": "2003",
+      "rarity": "Rare Secret",
       "finish": "Holo",
-      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/UF/Lugia_ex_105_115.webp",
-      "price": 1204.25,
-      "us": 960.36
+      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/AQ/Lugia_149_147.webp",
+      "price": 2611.66,
+      "us": 2956.16
     },
     {
       "name": "Mew",
@@ -162,15 +162,15 @@
       "us": 1387.78
     },
     {
-      "name": "Shining Mewtwo",
-      "set": "Neo Destiny",
-      "number": "109/105",
-      "year": "2002",
-      "rarity": "Rare Secret",
-      "finish": "1st Edition · Holo",
-      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/N4/Shining_Mewtwo_109_105.webp",
-      "price": 1905.45,
-      "us": 3583.74
+      "name": "Rocket's Mewtwo ex",
+      "set": "EX Team Rocket Returns",
+      "number": "99/109",
+      "year": "2004",
+      "rarity": "Rare Holo ex",
+      "finish": "Holo",
+      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/TR/Rocket_s_Mewtwo_ex_99_109.webp",
+      "price": 1571.79,
+      "us": 1571.79
     },
     {
       "name": "Blastoise",
@@ -180,8 +180,8 @@
       "rarity": "Rare Holo",
       "finish": "1st Edition · Holo",
       "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/BS/Blastoise_2_102.webp",
-      "price": 2008.36,
-      "us": 2008.28
+      "price": 1881.51,
+      "us": 1910.95
     },
     {
       "name": "Venusaur",
@@ -191,8 +191,8 @@
       "rarity": "Rare Holo",
       "finish": "1st Edition · Holo",
       "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/BS/Venusaur_15_102.webp",
-      "price": 1540.73,
-      "us": 1548.58
+      "price": 1145.04,
+      "us": 1532.09
     },
     {
       "name": "Nidoking",
@@ -206,15 +206,15 @@
       "us": 1088.13
     },
     {
-      "name": "Gyarados",
-      "set": "Skyridge",
-      "number": "H10/H32",
-      "year": "2003",
-      "rarity": "Rare Holo",
+      "name": "Regice ☆",
+      "set": "EX Legend Maker",
+      "number": "90/92",
+      "year": "2006",
+      "rarity": "Rare Holo ☆",
       "finish": "Holo",
-      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/SK/Gyarados_H10_H32.webp",
-      "price": 2679.1,
-      "us": 780.89
+      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/LM/Regice_90_92.webp",
+      "price": 2039.63,
+      "us": 2039.63
     }
   ]
 }
