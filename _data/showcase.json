@@ -1,6 +1,6 @@
 {
-  "priceDate": "2026-10-11",
-  "priceDateLabel": "11 October 2026",
+  "priceDate": "2026-10-12",
+  "priceDateLabel": "12 October 2026",
   "stats": {
     "cards": "6,560",
     "sets": 211,
@@ -10,7 +10,13 @@
   "ticker": [
     {
       "label": "MEWTWO ☆ · EX HOLON PHANTOMS 103/110 · HOLO",
-      "price": "£4,947",
+      "price": "£4,997",
+      "change": null,
+      "up": false
+    },
+    {
+      "label": "LATIOS ☆ · EX DEOXYS 106/107 · HOLO",
+      "price": "£4,962",
       "change": null,
       "up": false
     },
@@ -22,7 +28,7 @@
     },
     {
       "label": "GENGAR · LEGENDARY COLLECTION 11/110 · REVERSE HOLO",
-      "price": "£4,705",
+      "price": "£4,747",
       "change": null,
       "up": false
     },
@@ -33,14 +39,14 @@
       "up": false
     },
     {
-      "label": "GENGAR · SKYRIDGE H9/H32 · HOLO",
-      "price": "£4,173",
+      "label": "CHARIZARD · LEGENDARY COLLECTION 3/110 · REVERSE HOLO",
+      "price": "£4,552",
       "change": null,
       "up": false
     },
     {
-      "label": "CHARIZARD · LEGENDARY COLLECTION 3/110 · REVERSE HOLO",
-      "price": "£3,696",
+      "label": "GENGAR · SKYRIDGE H9/H32 · HOLO",
+      "price": "£4,173",
       "change": null,
       "up": false
     },
@@ -57,14 +63,14 @@
       "up": false
     },
     {
-      "label": "MEW · 30TH CELEBRATION R/RGB · HOLO",
-      "price": "£3,113",
+      "label": "CHARIZARD · SKYRIDGE 146/144 · REVERSE HOLO",
+      "price": "£3,066",
       "change": null,
       "up": false
     },
     {
-      "label": "CHARIZARD · SKYRIDGE 146/144 · REVERSE HOLO",
-      "price": "£3,005",
+      "label": "MEW · 30TH CELEBRATION R/RGB · HOLO",
+      "price": "£3,060",
       "change": null,
       "up": false
     },
@@ -75,14 +81,14 @@
       "up": false
     },
     {
-      "label": "UMBREON · SKYRIDGE H30/H32 · HOLO",
-      "price": "£2,839",
+      "label": "LUGIA · NEO GENESIS 9/111 · 1ST EDITION · HOLO",
+      "price": "£2,846",
       "change": null,
       "up": false
     },
     {
-      "label": "LUGIA · NEO GENESIS 9/111 · 1ST EDITION · HOLO",
-      "price": "£2,787",
+      "label": "UMBREON · SKYRIDGE H30/H32 · HOLO",
+      "price": "£2,839",
       "change": null,
       "up": false
     },
@@ -97,12 +103,6 @@
       "price": "£2,683",
       "change": null,
       "up": false
-    },
-    {
-      "label": "CELEBI · SKYRIDGE 145/144 · HOLO",
-      "price": "£2,654",
-      "change": null,
-      "up": false
     }
   ],
   "demo": [
@@ -114,8 +114,8 @@
       "rarity": "Rare Holo",
       "finish": "Reverse Holo",
       "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/LC/charizard-3-110-reverse-holo.webp",
-      "price": 3696.29,
-      "us": 3386.45
+      "price": 4551.95,
+      "us": 3454.86
     },
     {
       "name": "Umbreon",
@@ -125,30 +125,30 @@
       "rarity": "Rare Holo",
       "finish": "Holo",
       "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/AQ/Umbreon_H29_H32.webp",
-      "price": 1226.88,
-      "us": 1305.15
+      "price": 1481.84,
+      "us": 1318.26
     },
     {
-      "name": "Lugia",
-      "set": "Call of Legends",
-      "number": "SL7",
-      "year": "2011",
-      "rarity": "Rare Holo",
+      "name": "Lugia ex",
+      "set": "EX Unseen Forces",
+      "number": "105/115",
+      "year": "2005",
+      "rarity": "Rare Holo ex",
       "finish": "Holo",
-      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/CL/Lugia_SL7.webp",
-      "price": 1153.74,
-      "us": 1153.74
+      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/UF/Lugia_ex_105_115.webp",
+      "price": 1951.67,
+      "us": 1883.42
     },
     {
       "name": "Mew",
       "set": "30th Celebration",
-      "number": "B/RGB",
+      "number": "G/RGB",
       "year": "2026",
       "rarity": "Promo",
       "finish": "Holo",
-      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/30C/Mew_B_RGB.webp",
-      "price": 2531.26,
-      "us": 2930.32
+      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/30C/Mew_G_RGB.webp",
+      "price": 2206.9,
+      "us": 2580.9
     },
     {
       "name": "Rayquaza",
@@ -158,8 +158,8 @@
       "rarity": "Rare Secret",
       "finish": "Holo",
       "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/DRX/Rayquaza_128_124.webp",
-      "price": 1003.91,
-      "us": 1010.2
+      "price": 1094.74,
+      "us": 1061.45
     },
     {
       "name": "Gengar",
@@ -169,19 +169,19 @@
       "rarity": "Rare Holo",
       "finish": "Reverse Holo",
       "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/LC/gengar-11-110-reverse-holo.webp",
-      "price": 4704.82,
-      "us": 4793.29
+      "price": 4747.4,
+      "us": 4739.66
     },
     {
-      "name": "Mewtwo ☆",
-      "set": "EX Holon Phantoms",
-      "number": "103/110",
-      "year": "2006",
-      "rarity": "Rare Holo ☆",
+      "name": "Rocket's Mewtwo ex",
+      "set": "EX Team Rocket Returns",
+      "number": "99/109",
+      "year": "2004",
+      "rarity": "Rare Holo ex",
       "finish": "Holo",
-      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/HP/Mewtwo_103_110.webp",
-      "price": 4947.22,
-      "us": 4784.16
+      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/TR/Rocket_s_Mewtwo_ex_99_109.webp",
+      "price": 1291.73,
+      "us": 1314.49
     },
     {
       "name": "Espeon ex",
@@ -191,8 +191,8 @@
       "rarity": "Rare Holo ex",
       "finish": "Holo",
       "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/UF/Espeon_ex_102_115.webp",
-      "price": 1031.32,
-      "us": 1092.65
+      "price": 1088.45,
+      "us": 1137.87
     },
     {
       "name": "Dark Blastoise",
@@ -202,8 +202,8 @@
       "rarity": "Rare Holo",
       "finish": "Reverse Holo",
       "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/LC/dark-blastoise-4-110-reverse-holo.webp",
-      "price": 1312.18,
-      "us": 1245.67
+      "price": 1259.69,
+      "us": 1245.08
     },
     {
       "name": "Gyarados",
@@ -213,7 +213,7 @@
       "rarity": "Rare Holo",
       "finish": "Reverse Holo",
       "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/LC/gyarados-12-110-reverse-holo.webp",
-      "price": 1006.7,
+      "price": 1079.7,
       "us": 1131.05
     }
   ]
