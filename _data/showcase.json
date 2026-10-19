@@ -2,7 +2,7 @@
   "priceDate": "2026-10-18",
   "priceDateLabel": "18 October 2026",
   "stats": {
-    "cards": "6,557",
+    "cards": "6,558",
     "sets": 204,
     "firstYear": 1999,
     "lastYear": 2026
@@ -27,14 +27,14 @@
       "up": false
     },
     {
-      "label": "GENGAR · SKYRIDGE H9/H32 · HOLO",
-      "price": "£4,618",
+      "label": "GENGAR · LEGENDARY COLLECTION 11/110 · REVERSE HOLO",
+      "price": "£4,762",
       "change": null,
       "up": false
     },
     {
-      "label": "GENGAR · LEGENDARY COLLECTION 11/110 · REVERSE HOLO",
-      "price": "£4,512",
+      "label": "GENGAR · SKYRIDGE H9/H32 · HOLO",
+      "price": "£4,618",
       "change": null,
       "up": false
     },
@@ -46,7 +46,7 @@
     },
     {
       "label": "TREECKO ☆ · EX TEAM ROCKET RETURNS 109/109 · HOLO",
-      "price": "£3,504",
+      "price": "£3,517",
       "change": null,
       "up": false
     },
@@ -114,8 +114,8 @@
       "rarity": "Rare Holo",
       "finish": "Shadowless · Holo",
       "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/bss/Charizard_4_102.webp",
-      "price": 1828.15,
-      "us": 1853.03
+      "price": 1844.92,
+      "us": 1869.85
     },
     {
       "name": "Pikachu ☆",
@@ -136,19 +136,19 @@
       "rarity": "Rare Holo",
       "finish": "Holo",
       "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/AQ/Umbreon_H29_H32.webp",
-      "price": 1480.23,
-      "us": 1490.34
+      "price": 1538.48,
+      "us": 1643.29
     },
     {
-      "name": "Lugia ex",
-      "set": "EX Unseen Forces",
-      "number": "105/115",
-      "year": "2005",
-      "rarity": "Rare Holo ex",
+      "name": "Lugia",
+      "set": "Call of Legends",
+      "number": "SL7",
+      "year": "2011",
+      "rarity": "Rare Holo",
       "finish": "Holo",
-      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/UF/Lugia_ex_105_115.webp",
-      "price": 1867.71,
-      "us": 1916.38
+      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/CL/Lugia_SL7.webp",
+      "price": 1000.86,
+      "us": 942.57
     },
     {
       "name": "Mew",
@@ -159,18 +159,18 @@
       "finish": "Holo",
       "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/30C/Mew_B_RGB.webp",
       "price": 3079.06,
-      "us": 3171.59
+      "us": 3465.53
     },
     {
       "name": "Rayquaza",
-      "set": "Dragons Exalted",
-      "number": "128/124",
-      "year": "2012",
-      "rarity": "Rare Secret",
+      "set": "Call of Legends",
+      "number": "SL10",
+      "year": "2011",
+      "rarity": "Rare Holo",
       "finish": "Holo",
-      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/DRX/Rayquaza_128_124.webp",
-      "price": 1041.35,
-      "us": 989.69
+      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/CL/Rayquaza_SL10.webp",
+      "price": 1152.75,
+      "us": 1063.47
     },
     {
       "name": "Gengar",
@@ -180,7 +180,7 @@
       "rarity": "Rare Holo",
       "finish": "Reverse Holo",
       "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/LC/gengar-11-110-reverse-holo.webp",
-      "price": 4512,
+      "price": 4762.16,
       "us": 4690.16
     },
     {
@@ -213,8 +213,8 @@
       "rarity": "Rare Holo",
       "finish": "Reverse Holo",
       "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/LC/dark-blastoise-4-110-reverse-holo.webp",
-      "price": 1402.65,
-      "us": 1368.01
+      "price": 1501.22,
+      "us": 1466.99
     }
   ]
 }
