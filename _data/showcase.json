@@ -1,8 +1,8 @@
 {
-  "priceDate": "2026-10-22",
-  "priceDateLabel": "22 October 2026",
+  "priceDate": "2026-10-23",
+  "priceDateLabel": "23 October 2026",
   "stats": {
-    "cards": "6,558",
+    "cards": "6,573",
     "sets": 204,
     "firstYear": 1999,
     "lastYear": 2026
@@ -93,14 +93,14 @@
       "up": false
     },
     {
-      "label": "LUGIA · NEO GENESIS 9/111 · 1ST EDITION · HOLO",
+      "label": "GROUDON ☆ · EX DELTA SPECIES 111/113 · HOLO",
       "price": "£2,739",
       "change": null,
       "up": false
     },
     {
-      "label": "GROUDON ☆ · EX DELTA SPECIES 111/113 · HOLO",
-      "price": "£2,739",
+      "label": "BLASTOISE · BASE SET (1ST EDITION) 2/102 · 1ST EDITION · HOLO",
+      "price": "£2,690",
       "change": null,
       "up": false
     }
@@ -113,7 +113,7 @@
       "year": "1999",
       "rarity": "Rare Holo",
       "finish": "Shadowless · Holo",
-      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/bss/Charizard_4_102.webp",
+      "image": "https://img.pulsetcg-cdn.com/cards/images/bss/Charizard_4_102.webp",
       "price": 1819.69,
       "us": 1841.47
     },
@@ -135,9 +135,9 @@
       "year": "2003",
       "rarity": "Rare Holo",
       "finish": "Holo",
-      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/AQ/Umbreon_H29_H32.webp",
-      "price": 1525.97,
-      "us": 1511.22
+      "image": "https://img.pulsetcg-cdn.com/cards/images/AQ/Umbreon_H29_H32.webp",
+      "price": 1509.44,
+      "us": 1500.06
     },
     {
       "name": "Lugia",
@@ -146,20 +146,20 @@
       "year": "2011",
       "rarity": "Rare Holo",
       "finish": "Holo",
-      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/CL/Lugia_SL7.webp",
-      "price": 1021.08,
-      "us": 1000.86
+      "image": "https://img.pulsetcg-cdn.com/cards/images/CL/Lugia_SL7.webp",
+      "price": 1095.11,
+      "us": 1095.11
     },
     {
       "name": "Mew",
       "set": "30th Celebration",
-      "number": "B/RGB",
+      "number": "G/RGB",
       "year": "2026",
       "rarity": "Promo",
       "finish": "Holo",
-      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/30C/Mew_B_RGB.webp",
-      "price": 2658.69,
-      "us": 3194.92
+      "image": "https://img.pulsetcg-cdn.com/cards/images/30C/Mew_G_RGB.webp",
+      "price": 2482.49,
+      "us": 2970.15
     },
     {
       "name": "Rayquaza",
@@ -168,20 +168,20 @@
       "year": "2011",
       "rarity": "Rare Holo",
       "finish": "Holo",
-      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/CL/Rayquaza_SL10.webp",
+      "image": "https://img.pulsetcg-cdn.com/cards/images/CL/Rayquaza_SL10.webp",
       "price": 1199.79,
-      "us": 1187.13
+      "us": 1199.06
     },
     {
-      "name": "Gengar",
-      "set": "Legendary Collection",
-      "number": "11/110",
-      "year": "2002",
-      "rarity": "Rare Holo",
-      "finish": "Reverse Holo",
-      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/LC/gengar-11-110-reverse-holo.webp",
-      "price": 4604.75,
-      "us": 4610.47
+      "name": "Gengar ex",
+      "set": "EX FireRed & LeafGreen",
+      "number": "108/112",
+      "year": "2004",
+      "rarity": "Rare Holo ex",
+      "finish": "Holo",
+      "image": "https://img.pulsetcg-cdn.com/cards/images/RG/Gengar_ex_108_112.webp",
+      "price": 2191.38,
+      "us": 2022.16
     },
     {
       "name": "Rocket's Mewtwo ex",
@@ -190,9 +190,9 @@
       "year": "2004",
       "rarity": "Rare Holo ex",
       "finish": "Holo",
-      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/TR/Rocket_s_Mewtwo_ex_99_109.webp",
-      "price": 1276.36,
-      "us": 1287.98
+      "image": "https://img.pulsetcg-cdn.com/cards/images/TR/Rocket_s_Mewtwo_ex_99_109.webp",
+      "price": 1270.57,
+      "us": 1282.14
     },
     {
       "name": "Espeon ex",
@@ -201,9 +201,9 @@
       "year": "2005",
       "rarity": "Rare Holo ex",
       "finish": "Holo",
-      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/UF/Espeon_ex_102_115.webp",
-      "price": 1869.52,
-      "us": 1708.59
+      "image": "https://img.pulsetcg-cdn.com/cards/images/UF/Espeon_ex_102_115.webp",
+      "price": 1778.35,
+      "us": 1641.6
     },
     {
       "name": "Dark Blastoise",
@@ -212,9 +212,9 @@
       "year": "2002",
       "rarity": "Rare Holo",
       "finish": "Reverse Holo",
-      "image": "https://pokepulse-static.s3.eu-west-2.amazonaws.com/cards/images/LC/dark-blastoise-4-110-reverse-holo.webp",
-      "price": 1530.67,
-      "us": 1476.01
+      "image": "https://img.pulsetcg-cdn.com/cards/images/LC/dark-blastoise-4-110-reverse-holo.webp",
+      "price": 1530.55,
+      "us": 1479.94
     }
   ]
 }
