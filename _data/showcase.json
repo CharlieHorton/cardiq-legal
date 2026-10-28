@@ -1,6 +1,6 @@
 {
-  "priceDate": "2026-10-27",
-  "priceDateLabel": "27 October 2026",
+  "priceDate": "2026-10-28",
+  "priceDateLabel": "28 October 2026",
   "stats": {
     "cards": "6,569",
     "sets": 204,
@@ -16,14 +16,8 @@
     },
     {
       "label": "LEAFEON LV.X · MAJESTIC DAWN 99/100 · HOLO",
-      "price": "£1,414",
-      "change": "▲620.9%",
-      "up": true
-    },
-    {
-      "label": "LATIAS ☆ · EX DEOXYS 105/107 · HOLO",
-      "price": "£3,864",
-      "change": "▲581.7%",
+      "price": "£1,325",
+      "change": "▲604.4%",
       "up": true
     },
     {
@@ -39,9 +33,15 @@
       "up": true
     },
     {
+      "label": "LATIAS ☆ · EX DEOXYS 105/107 · HOLO",
+      "price": "£3,864",
+      "change": "▲321.5%",
+      "up": true
+    },
+    {
       "label": "ALAKAZAM ☆ · EX CRYSTAL GUARDIANS 99/100 · HOLO",
-      "price": "£3,700",
-      "change": "▲304.0%",
+      "price": "£3,709",
+      "change": "▲305.0%",
       "up": true
     },
     {
@@ -58,8 +58,8 @@
     },
     {
       "label": "ROCKET'S MEWTWO EX · EX TEAM ROCKET RETURNS 99/109 · HOLO",
-      "price": "£1,265",
-      "change": "▲268.4%",
+      "price": "£1,258",
+      "change": "▲266.3%",
       "up": true
     },
     {
@@ -87,9 +87,9 @@
       "up": true
     },
     {
-      "label": "DARK ESPEON · NEO DESTINY 4/105 · 1ST EDITION · HOLO",
-      "price": "£1,158",
-      "change": "▲192.9%",
+      "label": "DARK DRAGONITE · LEGENDARY COLLECTION 5/110 · REVERSE HOLO",
+      "price": "£1,430",
+      "change": "▲207.1%",
       "up": true
     },
     {
@@ -115,7 +115,7 @@
       "finish": "Shadowless · Holo",
       "image": "https://img.pulsetcg-cdn.com/cards/images/bss/Charizard_4_102.webp",
       "price": 2018.11,
-      "us": 2118.19
+      "us": 2139.48
     },
     {
       "name": "Umbreon",
@@ -125,7 +125,7 @@
       "rarity": "Rare Holo",
       "finish": "Holo",
       "image": "https://img.pulsetcg-cdn.com/cards/images/AQ/Umbreon_H29_H32.webp",
-      "price": 1662.66,
+      "price": 1691.27,
       "us": 1679.27
     },
     {
@@ -152,14 +152,14 @@
     },
     {
       "name": "Rayquaza",
-      "set": "Call of Legends",
-      "number": "SL10",
-      "year": "2011",
+      "set": "EX Holon Phantoms",
+      "number": "16/110",
+      "year": "2006",
       "rarity": "Rare Holo",
-      "finish": "Holo",
-      "image": "https://img.pulsetcg-cdn.com/cards/images/CL/Rayquaza_SL10.webp",
-      "price": 1199.79,
-      "us": 1235.58
+      "finish": "Reverse Holo",
+      "image": "https://img.pulsetcg-cdn.com/cards/images/ex13/rayquaza-16-110-expansion-stamp-holo-ex-holon-phantoms-stamp.webp",
+      "price": 1469.04,
+      "us": 1407.41
     },
     {
       "name": "Gengar ex",
@@ -169,8 +169,8 @@
       "rarity": "Rare Holo ex",
       "finish": "Holo",
       "image": "https://img.pulsetcg-cdn.com/cards/images/RG/Gengar_ex_108_112.webp",
-      "price": 2319.4,
-      "us": 2109.9
+      "price": 2384.24,
+      "us": 2165.1
     },
     {
       "name": "Rocket's Mewtwo ex",
@@ -180,7 +180,7 @@
       "rarity": "Rare Holo ex",
       "finish": "Holo",
       "image": "https://img.pulsetcg-cdn.com/cards/images/TR/Rocket_s_Mewtwo_ex_99_109.webp",
-      "price": 1264.81,
+      "price": 1257.57,
       "us": 1270.54
     },
     {
@@ -202,19 +202,19 @@
       "rarity": "Rare Holo",
       "finish": "Reverse Holo",
       "image": "https://img.pulsetcg-cdn.com/cards/images/LC/dark-blastoise-4-110-reverse-holo.webp",
-      "price": 1472.12,
+      "price": 1476,
       "us": 1445.25
     },
     {
-      "name": "Alakazam",
-      "set": "Base Set (1st Edition)",
-      "number": "1/102",
-      "year": "1999",
-      "rarity": "Rare Holo",
-      "finish": "1st Edition · Holo",
-      "image": "https://img.pulsetcg-cdn.com/cards/images/BS/Alakazam_1_102.webp",
-      "price": 1000.82,
-      "us": 1080
+      "name": "Rocket's Snorlax ex",
+      "set": "EX Team Rocket Returns",
+      "number": "104/109",
+      "year": "2004",
+      "rarity": "Rare Holo ex",
+      "finish": "Holo",
+      "image": "https://img.pulsetcg-cdn.com/cards/images/TR/Rocket_s_Snorlax_ex_104_109.webp",
+      "price": 1361.63,
+      "us": 1412.44
     }
   ]
 }
