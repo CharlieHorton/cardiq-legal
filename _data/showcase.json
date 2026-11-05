@@ -1,17 +1,17 @@
 {
-  "priceDate": "2026-11-04",
-  "priceDateLabel": "4 November 2026",
+  "priceDate": "2026-11-05",
+  "priceDateLabel": "5 November 2026",
   "stats": {
-    "cards": "6,614",
+    "cards": "6,619",
     "sets": 205,
     "firstYear": 1999,
     "lastYear": 2026
   },
   "ticker": [
     {
-      "label": "LUGIA EX · EX UNSEEN FORCES 105/115 · HOLO",
-      "price": "£2,399",
-      "change": "▲9988.3%",
+      "label": "GENGAR EX · EX FIRERED & LEAFGREEN 108/112 · HOLO",
+      "price": "£2,681",
+      "change": "▲731.8%",
       "up": true
     },
     {
@@ -22,14 +22,8 @@
     },
     {
       "label": "LEAFEON LV.X · MAJESTIC DAWN 99/100 · HOLO",
-      "price": "£1,516",
-      "change": "▲673.1%",
-      "up": true
-    },
-    {
-      "label": "GENGAR EX · EX FIRERED & LEAFGREEN 108/112 · HOLO",
-      "price": "£2,422",
-      "change": "▲651.4%",
+      "price": "£1,451",
+      "change": "▲639.8%",
       "up": true
     },
     {
@@ -40,14 +34,14 @@
     },
     {
       "label": "LUGIA · CALL OF LEGENDS SL7 · HOLO",
-      "price": "£2,429",
-      "change": "▲366.5%",
+      "price": "£2,454",
+      "change": "▲370.3%",
       "up": true
     },
     {
       "label": "ALAKAZAM ☆ · EX CRYSTAL GUARDIANS 99/100 · HOLO",
-      "price": "£4,161",
-      "change": "▲354.3%",
+      "price": "£4,107",
+      "change": "▲348.4%",
       "up": true
     },
     {
@@ -59,19 +53,7 @@
     {
       "label": "TYPHLOSION · NEO GENESIS 17/111 · 1ST EDITION · HOLO",
       "price": "£1,457",
-      "change": "▲270.9%",
-      "up": true
-    },
-    {
-      "label": "CELEBI ☆ · EX CRYSTAL GUARDIANS 100/100 · HOLO",
-      "price": "£3,171",
-      "change": "▲232.8%",
-      "up": true
-    },
-    {
-      "label": "VENUSAUR · LEGENDARY COLLECTION 18/110 · REVERSE HOLO",
-      "price": "£1,001",
-      "change": "▲198.6%",
+      "change": "▲262.5%",
       "up": true
     },
     {
@@ -82,8 +64,8 @@
     },
     {
       "label": "SNORLAX LV.X · RISING RIVALS 111/111 · HOLO",
-      "price": "£1,105",
-      "change": "▲194.6%",
+      "price": "£1,099",
+      "change": "▲192.9%",
       "up": true
     },
     {
@@ -94,39 +76,57 @@
     },
     {
       "label": "VAPOREON ☆ · EX POWER KEEPERS 102/108 · HOLO",
-      "price": "£2,561",
-      "change": "▲176.8%",
+      "price": "£2,576",
+      "change": "▲178.5%",
       "up": true
     },
     {
-      "label": "JOLTEON ☆ · EX POWER KEEPERS 101/108 · HOLO",
-      "price": "£2,370",
-      "change": "▲169.1%",
+      "label": "DARK DRAGONITE · LEGENDARY COLLECTION 5/110 · REVERSE HOLO",
+      "price": "£1,231",
+      "change": "▲164.3%",
+      "up": true
+    },
+    {
+      "label": "ESPEON EX · EX UNSEEN FORCES 102/115 · HOLO",
+      "price": "£1,712",
+      "change": "▲131.5%",
+      "up": true
+    },
+    {
+      "label": "KYOGRE ☆ · EX DELTA SPECIES 112/113 · HOLO",
+      "price": "£3,072",
+      "change": "▲131.0%",
+      "up": true
+    },
+    {
+      "label": "UMBREON EX · EX UNSEEN FORCES 112/115 · HOLO",
+      "price": "£1,966",
+      "change": "▲115.5%",
       "up": true
     }
   ],
   "demo": [
     {
       "name": "Charizard",
-      "set": "Legendary Collection",
-      "number": "3/110",
-      "year": "2002",
+      "set": "Base Set (Shadowless)",
+      "number": "4/102",
+      "year": "1999",
       "rarity": "Rare Holo",
-      "finish": "Reverse Holo",
-      "image": "https://img.pulsetcg.io/cards/images/LC/charizard-3-110-reverse-holo.webp",
-      "price": 4875.1,
-      "us": 5016.15
+      "finish": "Shadowless · Holo",
+      "image": "https://img.pulsetcg.io/cards/images/bss/Charizard_4_102.webp",
+      "price": 1814.37,
+      "us": 1805
     },
     {
       "name": "Umbreon",
-      "set": "Aquapolis",
-      "number": "H29/H32",
-      "year": "2003",
+      "set": "Neo Discovery",
+      "number": "13/75",
+      "year": "2001",
       "rarity": "Rare Holo",
-      "finish": "Holo",
-      "image": "https://img.pulsetcg.io/cards/images/AQ/Umbreon_H29_H32.webp",
-      "price": 1626.99,
-      "us": 1656.74
+      "finish": "1st Edition · Holo",
+      "image": "https://img.pulsetcg.io/cards/images/N2/Umbreon_13_75.webp",
+      "price": 1980.66,
+      "us": 2119.38
     },
     {
       "name": "Lugia EX",
@@ -137,7 +137,7 @@
       "finish": "Holo",
       "image": "https://img.pulsetcg.io/cards/images/PLS/Lugia-EX_134_135.webp",
       "price": 1117.79,
-      "us": 977.26
+      "us": 914.54
     },
     {
       "name": "Mew",
@@ -147,30 +147,30 @@
       "rarity": "Promo",
       "finish": "Holo",
       "image": "https://img.pulsetcg.io/cards/images/30C/Mew_B_RGB.webp",
-      "price": 2142.77,
-      "us": 2629.57
+      "price": 2070.43,
+      "us": 2724.82
     },
     {
       "name": "Rayquaza",
-      "set": "EX Holon Phantoms",
-      "number": "16/110",
-      "year": "2006",
+      "set": "Call of Legends",
+      "number": "SL10",
+      "year": "2011",
       "rarity": "Rare Holo",
-      "finish": "Reverse Holo",
-      "image": "https://img.pulsetcg.io/cards/images/ex13/rayquaza-16-110-expansion-stamp-holo-ex-holon-phantoms-stamp.webp",
-      "price": 1469.4,
-      "us": 1471.22
+      "finish": "Holo",
+      "image": "https://img.pulsetcg.io/cards/images/CL/Rayquaza_SL10.webp",
+      "price": 1246.96,
+      "us": 1311.99
     },
     {
-      "name": "Gengar",
-      "set": "Legendary Collection",
-      "number": "11/110",
-      "year": "2002",
-      "rarity": "Rare Holo",
-      "finish": "Reverse Holo",
-      "image": "https://img.pulsetcg.io/cards/images/LC/gengar-11-110-reverse-holo.webp",
-      "price": 4350.89,
-      "us": 4413.26
+      "name": "Gengar ex",
+      "set": "EX FireRed & LeafGreen",
+      "number": "108/112",
+      "year": "2004",
+      "rarity": "Rare Holo ex",
+      "finish": "Holo",
+      "image": "https://img.pulsetcg.io/cards/images/RG/Gengar_ex_108_112.webp",
+      "price": 2680.85,
+      "us": 2249.57
     },
     {
       "name": "Rocket's Mewtwo ex",
@@ -180,19 +180,19 @@
       "rarity": "Rare Holo ex",
       "finish": "Holo",
       "image": "https://img.pulsetcg.io/cards/images/TR/Rocket_s_Mewtwo_ex_99_109.webp",
-      "price": 1254.73,
-      "us": 1274.43
+      "price": 1226.12,
+      "us": 1243.76
     },
     {
-      "name": "Dark Espeon",
-      "set": "Neo Destiny",
-      "number": "4/105",
-      "year": "2002",
-      "rarity": "Rare Holo",
-      "finish": "1st Edition · Holo",
-      "image": "https://img.pulsetcg.io/cards/images/N4/Dark_Espeon_4_105.webp",
-      "price": 1028.96,
-      "us": 1040.97
+      "name": "Espeon ex",
+      "set": "EX Unseen Forces",
+      "number": "102/115",
+      "year": "2005",
+      "rarity": "Rare Holo ex",
+      "finish": "Holo",
+      "image": "https://img.pulsetcg.io/cards/images/UF/Espeon_ex_102_115.webp",
+      "price": 1712.32,
+      "us": 1593.08
     },
     {
       "name": "Dark Blastoise",
@@ -202,8 +202,8 @@
       "rarity": "Rare Holo",
       "finish": "Reverse Holo",
       "image": "https://img.pulsetcg.io/cards/images/LC/dark-blastoise-4-110-reverse-holo.webp",
-      "price": 1076.4,
-      "us": 1023.9
+      "price": 1023.9,
+      "us": 964.28
     },
     {
       "name": "Rocket's Snorlax ex",
